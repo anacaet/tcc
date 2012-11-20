@@ -1,0 +1,33 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Folharosto
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% não numerar a página
+\thispagestyle{empty}
+
+\begin{center}
+{\large THIAGO AUGUSTO LOPES GENEZ}
+
+\vspace{1.6in}
+{\Large \textbf{SEGURANÇA DE APLICAÇÕES NA WEB}} 
+
+\vspace{2.0in}
+\begin{flushright}
+\parbox{3.2in}{
+Trabalho de Conclusão de Curso apresentado ao Curso de Graduação em Ciência
+da Computação da Universidade Estadual de Londrina, como requisito parcial à
+obtenção do grau de Bacharel.}
+\end{flushright}
+ 
+\vspace{0.5in}
+\begin{flushright}
+\parbox{3.2in}{
+Orientador: Prof. Dr. Mario Lemes Proença Jr.}
+\end{flushright}
+  
+\vspace{1.2in}
+\begin{center}
+{\bf Londrina \\
+ 2009}
+\end{center}
+\end{center}
