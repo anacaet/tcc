@@ -1,20 +1,13 @@
-\begin{abstract}
+\singlespacing
+\noindent ALVES RODRIGUES,  Ana Carolina  {\bf Gestão de Porftolio de Projetos}. 2012. 85 f. TCC - Universidade Estadual de Londrina, Londrina. 2012. \\
+\begin{center}
+{\bf {\Large ABSTRACT}}
+\end{center}
+Texto do abstract 
+\newline
 
-	 
-	
-	
-The web applications are the main mechanisms for transfers of electronic data. Cryptography and
-security protocols are essential components for establishing an e-commerce. Currently, with the
-growth in the number of data transactions being made through the Internet, ensuring the safety of
-the transfer of information is important. Large amounts of sensitive data being transferred via the
-Internet, through e-commerce applications, online banks and even government websites. However, many
-web applications are developed quickly, and with it, are not done proper testing of security, so the
-software becomes vulnerable. Therefore, this paper presents the techniques and technologies on
-safety on the web, for applications to establish secure communications, reliable and vulnerability.         
+\noindent{\bf Keywords:}  palavra-chave1, palavra-chave2...palavra-chaven.
  
-\vspace{1.5ex}
-
-\textbf{Keywords:} Application, Cryptography , Protocol, Security,
-Vulnerability
-
-\end{abstract}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% fim de arquivo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,20 @@
+\begin{abstract}
+
+	 
+	
+	
+The web applications are the main mechanisms for transfers of electronic data. Cryptography and
+security protocols are essential components for establishing an e-commerce. Currently, with the
+growth in the number of data transactions being made through the Internet, ensuring the safety of
+the transfer of information is important. Large amounts of sensitive data being transferred via the
+Internet, through e-commerce applications, online banks and even government websites. However, many
+web applications are developed quickly, and with it, are not done proper testing of security, so the
+software becomes vulnerable. Therefore, this paper presents the techniques and technologies on
+safety on the web, for applications to establish secure communications, reliable and vulnerability.         
+ 
+\vspace{1.5ex}
+
+\textbf{Keywords:} Application, Cryptography , Protocol, Security,
+Vulnerability
+
+\end{abstract}

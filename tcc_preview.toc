@@ -1,24 +1,27 @@
 \select@language {brazil}
-\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{13}
-\contentsline {section}{\numberline {1.1}Objetivos}{13}
-\contentsline {section}{\numberline {1.2}Organiza\IeC {\c c}\IeC {\~a}o}{14}
-\contentsline {chapter}{\numberline {2}Estrat\IeC {\'e}gia Organizacional}{15}
-\contentsline {section}{\numberline {2.1}Planejamento Estrat\IeC {\'e}gico}{16}
-\contentsline {chapter}{\numberline {3}A Gest\IeC {\~a}o de Portf\IeC {\'o}lio}{18}
-\contentsline {section}{\numberline {3.1}Gest\IeC {\~a}o de Portf\IeC {\'o}lio e os processos organizacionais}{21}
-\contentsline {section}{\numberline {3.2}Gerenciamento de projetos}{23}
-\contentsline {section}{\numberline {3.3}Selecionando projetos}{25}
-\contentsline {subsection}{\numberline {3.3.1}M\IeC {\'e}todo dos Fatores Cr\IeC {\'\i }ticos de Sucesso}{26}
-\contentsline {subsection}{\numberline {3.3.2}Grid Estrat\IeC {\'e}gico}{27}
-\contentsline {subsection}{\numberline {3.3.3}Modelos de Pontua\IeC {\c c}\IeC {\~a}o}{28}
-\contentsline {subsection}{\numberline {3.3.4}Diagrama de Bolhas}{29}
-\contentsline {subsection}{\numberline {3.3.5}Modelo de Archer para sele\IeC {\c c}\IeC {\~a}o}{30}
-\contentsline {section}{\numberline {3.4}Gest\IeC {\~a}o do Conhecimento}{32}
-\contentsline {section}{\numberline {3.5}Benef\IeC {\'\i }cios da Gest\IeC {\~a}o de Portf\IeC {\'o}lio}{32}
-\contentsline {section}{\numberline {3.6}Desafios da Gest\IeC {\~a}o de Portf\IeC {\'o}lio}{33}
-\contentsline {chapter}{\numberline {4}Modelos para Gest\IeC {\~a}o de Portf\IeC {\'o}lio}{35}
-\contentsline {section}{\numberline {4.1}Cooper, Edgett e Kleinschmidt}{35}
-\contentsline {section}{\numberline {4.2}Rabechini, Maximiano e Martins}{42}
-\contentsline {section}{\numberline {4.3}PMI}{44}
-\contentsline {section}{\numberline {4.4}Proposto}{46}
-\contentsline {chapter}{Refer\^encias}{50}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{14}
+\contentsline {section}{\numberline {1.1}Objetivos}{14}
+\contentsline {section}{\numberline {1.2}Organiza\IeC {\c c}\IeC {\~a}o}{15}
+\contentsline {chapter}{\numberline {2}Estrat\IeC {\'e}gia Organizacional}{16}
+\contentsline {section}{\numberline {2.1}Planejamento Estrat\IeC {\'e}gico}{17}
+\contentsline {chapter}{\numberline {3}Gerenciamento de projetos}{19}
+\contentsline {section}{\numberline {3.1}Ciclo de vida do projeto}{20}
+\contentsline {section}{\numberline {3.2}Processos de gerenciamento de projetos}{21}
+\contentsline {section}{\numberline {3.3}Project Management Office}{22}
+\contentsline {chapter}{\numberline {4}A Gest\IeC {\~a}o de Portf\IeC {\'o}lio}{24}
+\contentsline {section}{\numberline {4.1}Gest\IeC {\~a}o de Portf\IeC {\'o}lio e os processos organizacionais}{27}
+\contentsline {section}{\numberline {4.2}Selecionando projetos}{29}
+\contentsline {subsection}{\numberline {4.2.1}M\IeC {\'e}todo dos Fatores Cr\IeC {\'\i }ticos de Sucesso}{29}
+\contentsline {subsection}{\numberline {4.2.2}Grid Estrat\IeC {\'e}gico}{30}
+\contentsline {subsection}{\numberline {4.2.3}Modelos de Pontua\IeC {\c c}\IeC {\~a}o}{31}
+\contentsline {subsection}{\numberline {4.2.4}Diagrama de Bolhas}{32}
+\contentsline {subsection}{\numberline {4.2.5}Modelo de Archer para sele\IeC {\c c}\IeC {\~a}o}{33}
+\contentsline {section}{\numberline {4.3}Benef\IeC {\'\i }cios da Gest\IeC {\~a}o de Portf\IeC {\'o}lio}{34}
+\contentsline {section}{\numberline {4.4}Desafios da Gest\IeC {\~a}o de Portf\IeC {\'o}lio}{35}
+\contentsline {chapter}{\numberline {5}Modelos para Gest\IeC {\~a}o de Portf\IeC {\'o}lio}{37}
+\contentsline {section}{\numberline {5.1}Cooper, Edgett e Kleinschmidt}{37}
+\contentsline {section}{\numberline {5.2}Rabechini, Maximiano e Martins}{42}
+\contentsline {section}{\numberline {5.3}O padr\IeC {\~a}o apresentado pelo PMI}{45}
+\contentsline {section}{\numberline {5.4}Proposto}{46}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{50}
+\contentsline {chapter}{Refer\^encias}{51}

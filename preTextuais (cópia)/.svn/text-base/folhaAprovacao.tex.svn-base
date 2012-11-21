@@ -1,0 +1,51 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Folha de Aprovacao
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% não numerar a página
+\thispagestyle{empty}
+
+\begin{center}
+{\large THIAGO AUGUSTO LOPES GENEZ}
+
+\vspace{0.9in}
+{\Large \textbf{SEGURANÇA DE APLICAÇÕES NA WEB}}
+
+\vspace{1.3in}
+\begin{flushright}
+\parbox{3.0in}{
+Trabalho de Conclusão de Curso apresentado ao Curso de Graduação em Ciência
+da Computação da Universidade Estadual de Londrina, como requisito parcial 
+à obtenção do grau de Bacharel.}
+\end{flushright}
+
+%\vspace{0.5in}
+%\begin{flushright}
+%\parbox{3.0in}{
+%Orientador: Dra. Jandira Guenka Palma}
+%\end{flushright}
+
+\vspace{0.5in}
+\begin{flushright}
+\parbox{3.0in}{
+\textbf{COMISSÃO EXAMINADORA} \\
+ %nome - institituicao (ordem alfabetica com orientador incluso)
+
+\flushright{ \rule{150pt}{1pt} \\
+ Prof. Dr. Mario Lemes Proença Jr. \\ Universidade Estadual de Londrina} \\
+
+\flushright{ \rule{150pt}{1pt} \\
+ Prof. Ms. Fábio Sakuray \\ Universidade Estadual de Londrina} \\
+
+\flushright{ \rule{150pt}{1pt} \\
+ Prof. Dr. Alan Salvany Felinto \\ Universidade Estadual de Londrina} \\
+}
+
+\vspace{0.5in}
+%\flushright{Londrina, 28\rule{20pt}{1pt} de \rule{80pt}{1pt} de 2009}
+\flushright{Londrina, \rule{20pt}{1pt} de \rule{80pt}{1pt} de 2009}
+
+\end{flushright}
+\end{center}
+
+

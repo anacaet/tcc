@@ -1,0 +1,34 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Capa
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}
+
+\begin{titlepage}
+ \vfill
+ \begin{center}
+
+	\begin{figure}[htb]
+		\centering \includegraphics[scale=1]{preTextuais/img/logouel.png}
+	\end{figure}
+
+	\rule{450pt}{6pt}
+	
+	{\large Departamento de Computa\c{c}\~ao \\
+	Trabalho de Conclus\~ao de Curso}
+
+	\vspace*{\stretch{4}}
+	{\large \textbf{THIAGO AUGUSTO LOPES GENEZ}}
+
+	\vspace*{\stretch{4}}
+	{\Large \textbf{SEGURANÇA DE APLICAÇÕES NA WEB}}
+
+	\vspace*{\stretch{7}}
+
+	\rule{450pt}{6pt}
+	\vfill
+	{\bf Londrina \\
+ 	2009}
+	\end{center}
+\end{titlepage}
+
