@@ -1,6 +1,7 @@
 \documentclass[12pt,a4paper,ruledheader,tocpage=prefix,floatnumber=continuous,pagestart=folhaderosto,font=times]{abnt}
 \usepackage[top=3cm,left=3cm,right=2cm,bottom=2cm]{geometry}
 
+\usepackage[alf]{abntcite}
 \usepackage[utf8]{inputenc}
 \usepackage{fancyhdr}
 \usepackage{enumerate}
@@ -26,6 +27,7 @@
 
 %folharosto
 \include{preTextuais/folhaRosto}
+
 % \folhaderosto
 
 %aprovacao
@@ -54,38 +56,68 @@
 \tableofcontents
 
 \chapter{Introdução}
+O mercado atual vem sofrendo intensa remodelação dos processos de gestão devido ao aumento da demanda por projetos e serviços. Fazendo assim com que essa 
+apresente-se em maior volume do que os recursos disponíveis para sua execução. É a partir deste cenário que as organizações buscam por técnicas, ferramentas 
+e metodologias que solucionem e/ou otimizem essa questão, priorizando recursos, garantindo a qualidade e propiciando maior satisfação ao cliente. 
+
 Atualmente o desenvolvimento de projetos tem buscado soluções que auxiliem a demanda do mercado de forma que seus recursos possam ser aplicados
-consistentemente, fazendo assim com que os atrasos, desperdícios e prejuízos sejam minimizados. Para isso busca-se utilizar ferramentas e 
+consistentemente, fazendo assim com que os atrasos, desperdícios e prejuízos sejam minimizados. Para isso, busca-se utilizar ferramentas e 
 técnicas que contemplem aspectos de eficiência (uso de recursos) e eficácia (obtenção de resultados positivos para a organização).
+
 Dessa forma torna-se comum a utilização de técnicas como gerência de projetos e gerência de portfolio, essa segunda ainda pouco utilizada no Brasil.
 
 Enquanto o gerenciamento de projetos ou programas está interessado em soluções que ``façam certo o trabalho'', a gestão de portfolio visa o ``faça o 
-trabalho certo''.\cite{sppm} De forma a orientar a escolha pelos projetos que sejam mais viáveis para a empresa em relação as metas estratégicas 
+trabalho certo''\cite{SPPM2008}. De forma a orientar a escolha pelos projetos que sejam mais viáveis para a empresa em relação as metas estratégicas 
 existentes. 
 
 No estudo ‘CHAOS Summary 2009’, o instituto de pesquisa Standish Group informa que houve uma queda nas taxas de sucesso dos projetos de TI. Pelo 
 relatório, só 32\% das iniciativas são bem-sucedidas. Ou seja, 68\% das atividades programadas pelo CIO e sua equipe acabam não atingindo os objetivos.
 
-O propósito do processo Gestão de Portfólio de Projetos é iniciar e manter projetos que sejam necessários, suficientes e sustentáveis, de forma a 
+O principal relacionamento que pode ser identificado entre a gestão de projetos e a gestão de portfolio (GPP) é no que diz respeito à alocação de recursos (humanos
+e financeiros), à tomada de decisão (que poderá ser do tipo investir ou não em determinado projeto) e ao posicionamento estratégico. Por isso, é possível
+dizer que existe uma real ligação entre gestão de projetos e GPP na definição dos objetivos da organização e na alocação de recursos.
+
+Determinados fatores inerentes ao gerenciamento de projetos têm sido identificados com grande relevância quando se fala de gerenciamento de portfolio. Os
+fatores com maior destaque pela maioria dos autores são: papel na tomada de decisão, disponibilidade de informação, suporte ao gerenciamento, esclarecimento
+dos objetivos do projeto, dentre outros.
+
+Levando em conta a dificuldade existente em medir o sucesso de uma organização no que diz respeito à gestão do portfolio de projeto, \cite{COOPER2001} utilizou
+seis importante critérios como métricas de sucesso de GPP. Tais métricas surgiram a parte de um estudo exploratório que ajuda a identificar o que seria um
+``bom portfolio''. Estes critérios focam em se ter projetos de alto valor, projetos bem balanceados, um portfolio alinhado estrategicamente, número correto 
+de projetos, etc.
+
+Organizações bem sucedidas possuem um método de gerenciamento de portfolio explícito e bem estabelecido. Este possui regras e procedimentos claros, trata
+o conjunto de projetos como um portfolio e é consistentemente aplicado através da escolha correta dos projetos a serem executados e priorizados.
+
+O propósito do processo Gestão de Portfolio de Projetos é iniciar e manter projetos que sejam necessários, suficientes e sustentáveis, de forma a 
 atender os objetivos estratégicos da organização, porém há pouco conhecimento sobre quais fatores da gestão de portfolio de projetos são específicos do 
 contexto e quais são universais. Este processo compromete o investimento e os recursos organizacionais adequados e estabelece a autoridade necessária 
-para executar os projetos selecionados.\cite{mps}
+para executar os projetos selecionados.\cite{SOFTEX2007}
 
 \section{Objetivos}
-O objetivo principal deste trabalho esta pautado no estudo sobre Gestão de Portfólio de Projetos, para obtenção de conhecimento sobre quais são suas principais
-vantagens e desafios. Bem como o conhecimento de modelos e ferramentas já existentes para a utilização dessa ferramenta. A partir de pesquisas no campo não
-apenas da Gestão de Portfolio mas também da Gerência de Projetos e Estratégias Organizacionais.
+O objetivo principal deste trabalho esta pautado no estudo sobre Gestão de Portfolio de Projetos, para obtenção de conhecimento sobre quais são suas principais
+vantagens e desafios. Bem como o conhecimento de modelos e ferramentas já existentes. A partir de pesquisas no campo não apenas da Gestão de Portfolio mas 
+também da Gerência de Projetos e Estratégias Organizacionais.
 
-Com tais conhecimentos, pretende-se a elaboração de um modelo próprio para a gestão. Capaz de atender as necessidades específicas das organizações desenvolvedoras
-de software. Para que ao final seja possível o desenvolvimento uma ferramenta para que utilizando tal metodologia nestas organizações específicas.
+Com tais conhecimentos, pretende-se a elaboração de um modelo próprio para a gestão. Capaz de atender as necessidades específicas das organizações 
+desenvolvedoras de software. Para que ao final seja possível o desenvolvimento uma ferramenta utilizando tal metodologia nestas organizações específicas.
+
+Espera-se que com a implementação de tal modelo e ferramenta seja possível implantar nas organizações maior controle sobre quais projetos devem ser 
+priorizados. De forma a aumentar a qualidade de desenvolvimento e também diminuir os custos gerados para a própria organização. Passando tal conhecimento da 
+diretoria administrativa para o gerente de portfolio e este difundindo as ações que devem ser realizadas pela equipe para que o retorno seja sempre o melhor 
+possível. 
 
 Pretende-se desenvolver a ferramenta de forma que esta possa ser aplicada de forma satisfatória nas organizações, fazendo com que os gastos
-empreendidos para o desenvolvimento de software fiquem abaixo das ganhos obtidos, tendo maior controle sobre a carteira de projetos será possível
+empreendidos para o desenvolvimento de software fiquem abaixo dos ganhos obtidos. Tendo maior controle sobre a carteira de projetos será possível
 equilibrar onde e quais recursos deverão ser utilizados e de que forma, aumentando assim a produtividade organizacional.
 
+Esse estudo visa um melhoramento de forma geral nos aspectos ligados a estrutura de projetos da organização, não se tratando apenas da busca de um ganho 
+maior financeiramente, mas também, da formação de todos os indivíduos ligados a gerência de projetos. Esse estudo proporcionará um entendimento entre as 
+diversas formas em que gerência se encontra e também nas maneiras como essa é transmitido dentro das organizações.
+
 \section{Organização}
-Este trabalho está dividido em seis capítulos. Este capítulo introdutório, que oferece informações sobre o propósito do trabalho e mais cinco.
-O segundo capítulo diz respeito a estratégia organizacional, onde serão apresentados conceitos importantes para tratar da Gestão de Portfólio e como estes
+Este trabalho está dividido em seis capítulos. Este capítulo introdutório, que oferece informações sobre o propósito do trabalho, e mais cinco.
+O segundo capítulo diz respeito a estratégia organizacional, em que serão apresentados conceitos importantes para tratar da Gestão de Portfolio e como estes
 devem ser trabalhados dentro da organização para garantir a gestão.
 
 O terceiro capítulo apresenta informações sobre o gerenciamento de projetos, suas definições e propriedades necessárias para sua utilização dentro das 
@@ -96,7 +128,7 @@ O quinto capítulo apresenta os principais modelos de Gestão de Portfolio estud
 aprendidas através deste.
 
 \chapter{Estratégia Organizacional}
-Segundo Prahalad (1997), a estratégia organizacional deve ter como ponto central o intuito de desenvolver uma série de competências essenciais, e partindo
+Segundo \citeonline{PRAHALAD1997}, a estratégia organizacional deve ter como ponto central o intuito de desenvolver uma série de competências essenciais, e partindo
 disso, criar novos produtos e serviços. Tal processo exige que exista uma nova forma de pensar por parte da organização, o que o autor descreve como um
 ``desaprendizado'' ou readaptação por parte dos dirigentes. 
 
@@ -104,7 +136,7 @@ Toda empresa possui o desejo de possuir estratégias que serão responsáveis pe
 criar tais estratégias, que não sejam apenas um exercício de posicionamento, é necessário que tal processo seja diferenciado. Isto é, não deve-se buscar 
 compreender o que já existe e como é feito, mas descobrir como é possível a criação de novas atividades, empreendimentos e negócios. 
 
-A partir dessa perspectiva, Prahalad (1998), aponta que a estratégia não deve ser apenas um exercício de analisar as atividades já realizadas e sim um processo
+A partir dessa perspectiva, \citeonline{PRAHALAD1998} aponta que a estratégia não deve ser apenas um exercício de analisar as atividades já realizadas e sim um processo
 de descoberta. Assim, a partir daí a estratégia passa a ser inovação e criatividade: tornando-se a busca por novas oportunidades e interação entre clientes, 
 empresas, tecnologias e mercado.
 
@@ -113,7 +145,7 @@ podem ser classificadas em quatro tipos distintos: sobrevivência, manutenção,
 de estratégias que será adotado, de forma que os aspectos gerais não acabem gerando conflitos entre si.
 
 Os níves de planejamento diferenciam-se de acordo com seu significado, alcance ou impacto, definindo assim o ato de planejar em si. Podemos dividir o 
-planejamento em três níveis\cite{sanvicente}:
+planejamento em três níveis\cite{SANVICENTE2000}:
 
 \begin{itemize}
  \item Planejamento estratégico: onde as decisões a serem tomadas deverão dizer respeito principalmente aos problemas externos da empresa, onde veremos geralmente
@@ -122,24 +154,24 @@ planejamento em três níveis\cite{sanvicente}:
  \item Planejamento operacional: as atividades previstas buscam a utilização dos recursos de forma mais eficiente para um determinado período de tempo.
 \end{itemize}
 
-Segundo Kaplan (2000), as estratégias dizem respeito ao item mais importante do planejamento estratégico das organizações, pois é através da estratégia
+Segundo \citeonline{KAPLAN2001}, as estratégias dizem respeito ao item mais importante do planejamento estratégico das organizações, pois é através da estratégia
 que os executivos possuem o poder de mudar o rumo da organização. Porém, não é correto dizer que esse seja o fator único e determinante para o sucesso ou
 fracasso da mesma. A competência da cúpula administrativa é tão importante quanto uma boa estratégia. E deverá estar focada na satisfação da necessidade
 dos clientes.
 
 \section{Planejamento Estratégico}
 O planejamento estratégico de uma organização tem como intuito definir objetivos para a seleção de programas de ação e execução, levando em conta as 
-condições internas e externas inerentes a instituição e a evolução almejada.No planejamento são definidos para que setores serão distribuídos os recursos 
+condições internas e externas inerentes à instituição e à evolução almejada.No planejamento são definidos para que setores serão distribuídos os recursos 
 existentes, de forma que os objetivos e metas traçadas sejam alcançados ao longo do processo. 
 
 \begin{flushright}
  \hfill \textit{``[...] são pré-requisitos a clara definição da missão da empresa, envolvimento e a participação dos gestores, e o apoio de sistema de 
 informações sobre variáveis ambientais, que gerem informações sobre os desempenhos passados e propiciem o conhecimento das variáveis atuais dos 
-ambientes interno e externo`` (CATELLI, 1999, p.59).}
+ambientes interno e externo`` \cite{CATELLI1999}.}
 \end{flushright}
 
 É um planejamento global a curto, médio e longo prazo, que também  considera premissas básicas que deverão ser respeitadas pela instituição para que o 
-processo tenha coerência e sustentação. O planejamento estratégico deve comportar decisões sobre o futuro da organização, como:\cite{rodolfo} 
+processo tenha coerência e sustentação. O planejamento estratégico deve comportar decisões sobre o futuro da organização, como:
 
 \begin{itemize}	
 \item Objetivos organizacionais a longo prazo e seu desdobramento em objetivos departamentais detalhados; 
@@ -151,10 +183,10 @@ processo tenha coerência e sustentação. O planejamento estratégico deve comp
 \item Novos investimentos em recursos (materiais, financeiros, máquinas e equipamentos, recursos humanos, tecnologia etc.) para inovação (mudanças) ou para crescimento (expansão).
 \end{itemize}
 
-Ao término do planejamento estratégico a organização deve possuir missão, visão e valores bem definidos, a partir daí os projetos e processos da mesma
+Ao término do planejamento estratégico, a organização deve possuir missão, visão e valores bem definidos, a partir daí os projetos e processos da mesma
 deverão ser desenvolvidos de acordo com estas definições, para que os objetivos e metas traçados possam ser alcançados e o planejamento bem sucedido.
 
-Existe uma estimativa de que entre as 500 maiores empresas do mundo listadas pela Fortune de 50\% a 75\% delas têm suas principais estratégias ancoradas 
+Existe uma estimativa de que entre as 500 maiores empresas do mundo listadas pela Fortune, de 50\% a 75\% delas têm suas principais estratégias ancoradas 
 em projetos de TI.O que evidencia a necessidade de técnicas e ferramentas que possam culminar no sucesso de tais estratégias.
 
 Deve-se lembrar que o planejamento é um processo contínuo, no qual estão envolvidas de forma simultânea a formulação, implementação e reformulação da
@@ -163,15 +195,15 @@ e em alguns casos é possível que os dois acabem por se confundir. Reforçando 
 de assegurar a melhora da própria estratégia.
 
 \chapter{Gerenciamento de projetos}
-Podemos considerar que projetos são semelhantes à operações, por serem executados por pessoas e, geralmente apresentarem limitações referentes a recursos e
+Podemos considerar que projetos são semelhantes às operações, por serem executados por pessoas e, geralmente apresentarem limitações referentes a recursos,
 serem planejados, executados e controlados. O que difere entre estes é principalmente o fato de as operações possuírem um caráter contínuo e repetitivo, ao
-passo em que os projetos têm um caráter temporário e exclusivo \cite{sppm}.
+passo em que os projetos têm um caráter temporário e exclusivo \cite{SPPM2008}.
 
-Podemos considerar que existem duas grandes maneiras de se observar o gerenciamento de projetos. A primeira e mais antiga, esta baseada no conceito de 
+Podemos considerar que existem duas grandes maneiras de se observar o gerenciamento de projetos. A primeira e mais antiga está baseada no conceito de 
 ciclo de vida do projeto e também possui parte de uma premissa temporal, onde o projeto será dividido em fases. Sendo essas: concepção, planejamento,
 execução e fechamento.
 
-Já a segunda, diz respeito a metodologia difundida pelo PMI – Project Management Institute, que surgiu no início dos anos 90 e hoje apresenta-se como
+Já a segunda diz respeito a metodologia difundida pelo PMI – Project Management Institute, que surgiu no início dos anos 90 e hoje apresenta-se como
 referência no assunto. Esta parte do pressuposto que existem diversas disciplinas que necessitam ser aplicadas aos projetos para assegurar seu sucesso.
 
 Tais disciplinas, descritas em detalhes no PMBOOK (2008) ( A Guide to the Project Managemente Body of Knowledge), são: gerenciar prazo, gerenciar custo,
@@ -185,28 +217,28 @@ Atualmente, com as aceleradas mudanças no mundo dos negócios, as organizaçõe
 ao invés de simples operações de hierarquia corporativa. Neste cenário, a gestão por projetos nas empresas mostra como será possível atingir as metas traçadas
 aplicando técnicas de gerenciamento de projetos, não apenas individualmente, mas também no nível estratégico.
 
-Segundo Dinsmore (1999, p.22), o gerenciamento por projeto traz consigo a pergunta ``Como podemos tornar o negócio mais adaptável, sensível e lucrativo
+Segundo \citeonline{DINSMORE2010}, o gerenciamento por projeto traz consigo a pergunta ``Como podemos tornar o negócio mais adaptável, sensível e lucrativo
 em um ambiente de múltiplos projetos, que muda rapidamente?'' em contraste com a gerência de projeto tradicional, que visa responder a pergunta ``Como
-podemos conseguir que este projeto seja feito eficaz e eficientemente?''. Porém, deve-se observar que novamente, ambos são complementares e trabalham em
+podemos conseguir que este projeto seja feito eficaz e eficientemente?''. Porém, deve-se observar que novamente ambos são complementares e trabalham em
 conjunto com o intuito de aumentar a produtividade e a eficácia da organização.
 
 \begin{flushright}
 \hfill \textit{“A estratégia de mudança e inovação das organizações é implementada 
 através de projetos, a capacidade de implementar projetos com taxa de 
 sucesso maior que seus concorrentes pode ser considerada uma 
-competência essencial de uma organização como definido por Hamel \& Prahalad (1994)”. }
+competência essencial de uma organização como definido por \citeonline{PRAHALAD1994}”. }
 \end{flushright}
 
 \section{Ciclo de vida do projeto}
 O ciclo de vida do projeto é capaz de oferecer uma estrutura básica para que possa ser realizado o gerenciamento do projeto, o que será independente do trabalho
 específico envolvido. Consiste em fases que geralmente são sequenciais e em determinadas ocasiões acabam por se sobrepôr, sendo que seu nome e quantidade 
-são determinados pela necessidade apresentada pelo gerenciamento da organização, a natureza do projeto e sua àrea de aplicação.\cite{pmbok}
+são determinados pela necessidade apresentada pelo gerenciamento da organização, a natureza do projeto e sua área de aplicação\cite{PMBOK2008}.
 
-Podemos documentar um ciclo de vida como uma metodologia. Sendo que este pode ser definido ou moldado de acordo com os aspectos inerentes a organização.
+Podemos documentar um ciclo de vida como uma metodologia. Sendo que este pode ser definido ou moldado de acordo com os aspectos inerentes à organização.
 Sabendo que projetos possuem início e fim bem definidos, a variação das entregas e atividades específicas poderão ser grandes.
 
 Projetos tendem a variar em tamanho e complexidade. Porém, não importa se estes são grandes, simples ou complexos. É possível que sejam mapeados para uma
-estrutura básica de ciclo de vida\cite{pmbok}:
+estrutura básica de ciclo de vida\cite{PMBOK2008}:
 
 \begin{itemize}
  \item Início do projeto;
@@ -219,10 +251,10 @@ A utilização dessa estrutura geralmente se dá no momento da comunicação com
 do projeto. Pois é uma visão de alto nível que oferece informações sobre o projeto sem oferecer grandes detalhes técnicos e pode ser utilizada em mais de uma
 ocasião.
 
-Segundo o \cite{pmbok} uma estrutura genérica do ciclo de vida em geral apresenta as seguinte características:
+Segundo o \citeonline{PMBOK2008}, uma estrutura genérica do ciclo de vida em geral apresenta as seguinte características:
 
 \begin{itemize}
- \item Níveis de custo e pessoal na fase inicial costumam ser baixos, e atingem um valor máximo durante a execução do projeto, e ao final do mesmo sofrem
+ \item Níveis de custo e pessoal na fase inicial costumam ser baixos, e atingem um valor máximo durante a execução do projeto e, ao final do mesmo, sofrem
        uma rápida queda.
  \item Durante o início do projeto é possível perceber uma maior influência das partes interessadas, bem como os riscos e incertezas.
  \item No início é evidente a capacidade de influenciar as características finais do projeto, sem que haja um impacto significativo sobre os custos, porém
@@ -232,8 +264,8 @@ Segundo o \cite{pmbok} uma estrutura genérica do ciclo de vida em geral apresen
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=.9\textwidth]{pmbok1.jpg}
-\caption{Impacto da variável com base no tempo decorrido do projeto\cite{pmbok}.}
+\includegraphics[width=.7\textwidth]{img/fig1.png}
+\caption{Impacto da variável com base no tempo decorrido do projeto\cite{PMBOK2008}.}
 \end{figure}
 
 Um gerente de projetos que esteja trabalhando dentro do contexto da estrutura genérica do ciclo de vida, poderá determinar que exista um controle maior 
@@ -241,11 +273,11 @@ sobre determinadas entregas. Geralmente projetos grandes e complexos requerem ta
 para atingir os objetivos traçados poderá se beneficiar com uma divisão formal de fases do projeto.  
 
 \section{Processos de gerenciamento de projetos}
-“Um processo é um conjunto de ações e atividades inter-relacionadas
-realizadas para obter um conjunto pré-especificado de produtos, resultados ou serviços.”\cite{pmbok}
+``Um processo é um conjunto de ações e atividades inter-relacionadas
+realizadas para obter um conjunto pré-especificado de produtos, resultados ou serviços\cite{PMBOK2008}.''
 
-O objetivo do gerenciamento de projetos é que seja possível iniciar, planejar, executar, monitorar e controlar, e encerrar um projeto específico. E tem um
-fator integrador que cria assim a necessidade de que cada processo estejam adequadamente associado e conectado a outros, para facilitar sua coordenação.
+O objetivo do gerenciamento de projetos é que seja possível iniciar, planejar, executar, monitorar e controlar e encerrar um projeto específico. E tem um
+fator integrador que cria assim a necessidade de que cada processo esteja adequadamente associado e conectado a outros para facilitar sua coordenação.
 
 Para o PMBOK os processos de gerenciamento de projetos estão agrupados em termos da integração entre eles, das integrações existentes dentro deles e dos 
 objetivos que estes devem alcançar. Tais processos estão agregados em cinco grupos, definidor como grupos de processos de gerenciamento de projetos. São eles:
@@ -266,21 +298,21 @@ A integração existente entre os processos apresentados acima pode ser melhor v
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=.9\textwidth]{pmbok2.JPG}
-\caption{Integração entre os processos de gerenciamento de projetos através de um ciclo do tipo PDCA.\cite{pmbok}.}
+\includegraphics[width=.6\textwidth]{img/fig2.png}
+\caption{Integração entre os processos de gerenciamento de projetos através de um ciclo do tipo PDCA.\cite{PMBOK2008}.}
 \end{figure}
 
 \section{Project Management Office}
-Para que seja possível controlar e gerenciar projetos de forma eficaz, faz-se necessário uma metodologia, organização e disciplina grande. As empresas 
-atuais possuem grande volume de projetos, com diferentes níveis de complexidade. E cabe ao gerente de projetos conhecer e administrar de uma forma geral
+Para que seja possível controlar e gerenciar projetos de forma eficaz, faz-se necessário uma metodologia, organização e grande disciplina. As empresas 
+atuais possuem grande volume de projetos com diferentes níveis de complexidade. E cabe ao gerente de projetos conhecer e administrar de uma forma geral
 cada um destes. Com o intuito de suprir esta demanda, as empresas estão optando cada vez mais pela utilização do conceito de Projeto Office – PO ou Project 
 Management Office – PMO.
  
 Este conceito diz respeito a área da empresa que possuirá uma visão holística dos projetos da mesma. Tendo conhecimento destes, o PMO tem como objetivos:
 a melhoria da eficiência no planejamento e condução dos mesmos, a informação rápida sobre os projetos existentes, a situação atual de cada um, auxílio nas
-tomadas de decisão sobre o futuro de cada projeto e suporte aos gerentes de projeto na forma de treinamento, software, padrões, etc. \cite{pmbok}.
+tomadas de decisão sobre o futuro de cada projeto e suporte aos gerentes de projeto na forma de treinamento, software, padrões, etc. \cite{PMBOK2008}.
 
-A partir dessa definição, pode surgir a pergunta: Como o PMO poderá contribuir na Gerência dos Projetos? Que pode ser respondida apresentando as cinco
+A partir dessa definição, pode surgir a pergunta: Como o PMO poderá contribuir na Gerência dos Projetos? A qual pode ser respondida apresentando as cinco
 principais atividades desenvolvidas pelo Project Office, definidas de acordo com o Gartner Group, que demonstram como tal conceito pode contribuir de 
 forma ampla para o gerenciamento de projetos:
 
@@ -299,7 +331,7 @@ forma ampla para o gerenciamento de projetos:
        de forma preventiva e não corretivas.
 \end{itemize}
 
-\chapter{A Gestão de Portfólio}
+\chapter{A Gestão de Portfolio}
 Define-se portfolio de projetos como sendo um grupo de projetos que serão conduzidos sob o patrocínio e/ou gerenciamento de uma organização particular.  
 Ou ainda, um conjunto de projetos e/ou programas e outras atividades que são agrupados para facilitar o gerenciamento efetivo dos trabalhos para 
 atingirem os objetivos estratégicos do negócio.
@@ -309,7 +341,7 @@ agrupados para facilitar o gerenciamento efetivo daquele trabalho para atender a
 necessariamente precisam ter alguma relação de dependência ou estar diretamente relacionados.''
 
 Ainda segundo o PMI, projetos são definidos como ``esforço temporário empreendido para criar um único produto, serviço ou resultado.'' Os componentes de 
-um portfolio são quantificáveis, ou seja, eles podem ser medidos, classificados e priorizados.\cite{sppm}
+um portfolio são quantificáveis, ou seja, eles podem ser medidos, classificados e priorizados\cite{SPPM2008}.
 
 Assim a gestão de portfolio consiste em técnicas para aprimorar a gerência de um conjunto de projetos ou programas de uma organização, esse gerenciamento
 deverá ser feito de forma a tratar os projetos como um conjunto único, que esteja alinhado com a estratégia organizacional. 
@@ -318,25 +350,25 @@ A partir dessa gerência são acarretados diversos  benefícios para a institui�
 permitir o gerenciamento de recursos; ligar os resultados dos projetos com as estratégias organizacionais; manter a visibilidade de todas as 
 informações vitais dos projetos; facilitar o acesso e as comunicações dentro da organização; subsidiar a tomada de decisões; dentre outros. 
 
-A gestão trata-se em primeira instância, do afunilamento e canalização de todas as oportunidades de projetos que adentram a empresa para um processo de 
+A gestão trata-se, em primeira instância, do afunilamento e canalização de todas as oportunidades de projetos que adentram a empresa para um processo de 
 seleção, priorização e análise de viabilidade, objetivando criar uma carteira única de trabalho, mais alinhada às estratégias da empresa, que seja 
 também mais transparente a todos os colaboradores e adaptada ao volume de recursos disponíveis.
 
 Gestão de portfolio consiste no gerenciamento centralizado de um ou mais portfolios  que inclui identificar, priorizar, autorizar, gerenciar, e 
-controlar projetos, programas e outras atividades relacionadas, para atingir os objetivos estratégicos específicos do negócio.\cite{mps}
+controlar projetos, programas e outras atividades relacionadas, para atingir os objetivos estratégicos específicos do negócio\cite{SOFTEX2007}.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=.9\textwidth]{flow_sppm.jpg}
-\caption{Exemplo dos relacionamentos de um Portfólio}
+\includegraphics[width=.7\textwidth]{img/fig3.png}
+\caption{Exemplo dos relacionamentos de um Portfolio}
 \end{figure} 
 
-A Gerência de Portfólio de Projetos pode ser compreendida como a governança sobre o conjunto dos projetos. Ela atua em duas frentes: selecionando os 
+A Gerência de Portfolio de Projetos pode ser compreendida como a governança sobre o conjunto dos projetos. Ela atua em duas frentes: selecionando os 
 projetos que devem ser executados; e, uma vez em execução, avaliando se estes projetos continuam viáveis e aderentes aos critérios pelos quais foram
 aprovados.
 
 O objetivo da etapa de seleção é criar uma combinação de projetos que melhor apóie os objetivos da organização, alinhada com as suas estratégias e 
-com as restrições de recursos (pessoas e orçamento)(LEVINE, 2005).
+com as restrições de recursos (pessoas e orçamento)\cite{LEVINE2010}.
 
 Apesar de não estar completamente ciente deste fato, toda organização pratica algum tipo de gestão de portfolio em seus projetos. Projetos são aprovados 
 quase que rotineiramente e/ou em momentos específicos dos ciclos de gestão das empresas. Gestão de projetos tornou-se, de fato, prática importante nos 
@@ -344,7 +376,7 @@ quase que rotineiramente e/ou em momentos específicos dos ciclos de gestão das
 como Project Management Offices. 
 
 Muitas empresas, no entanto, organizam seus projetos de forma ad-hoc e individualizada, com foco na determinação de prazos, realocação de recursos 
-baseados em necessidades de curto prazo em constante mudança e soluções de disputas políticas sobre estes recursos escassos.\cite{artigo}
+baseados em necessidades de curto prazo em constante mudança e soluções de disputas políticas sobre estes recursos escassos.
 
 Porém muitas organizações necessitam de um gerenciamento que seja capaz de integrar seu vasto número de projetos aos objetivos estratégicos traçados.
 Neste momento é que se faz necessária a utilização de uma gestão de portfolio, que será responsável por ajudar as empresas a gerenciarem o conjunto 
@@ -395,25 +427,25 @@ Na tabela um são apresentados as etapas inerentes a gestão de portfolio e os r
 			       & outras ações gerenciais.\\			      
   \hline			
  \end{tabular}
-\caption{Processo gerencial para criação do gerenciamento de portfolio\cite{crawford}}
+\caption{Processo gerencial para criação do gerenciamento de portfolio\cite{CRAWFORD2002}}
 \end{center}
 \end{table}
 
 O conceito de projetos deverá estar bem definido, a forma como estes serão e são realizados, para que seja possível estimar o volume adequado de trabalho,
-sem esquecer que estes sempre deverão estar atrelados a estratégia vigente e à disponibilidade de recursos. Além disso será necessário criar nos membros 
+sem esquecer que estes sempre deverão estar atrelados à estratégia vigente e à disponibilidade de recursos. Além disso será necessário criar nos membros 
 da organização a cultura de utilização dessas não tão novas metodologias, já que eles serão os responsáveis por fazer com que o processo como um todo 
 funcione.
 
-\section{Gestão de Portfólio e os processos organizacionais}
+\section{Gestão de Portfolio e os processos organizacionais}
 A gestão de portfolio deve combinar o foco da organização para garantir que os projetos selecionados atendam a estratégia de investimento do 
 portfolio com o foco de gerenciamento de projetos na execução destes de forma eficaz e dentro da contribuição prevista para o portfolio.
 
-A figura a seguir mostra as relações gerais entre os processos estratégicos e táticos da organização. A partir da visão e missão, a estratégia e 
+A figura quatro mostra as relações gerais entre os processos estratégicos e táticos da organização. A partir da visão e missão, a estratégia e 
 objetivos organizacionais são desenvolvidos.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=.9\textwidth]{organizacional_port.jpg}
+\includegraphics[width=.6\textwidth]{img/fig4.png}
 \caption{Contexto organizacional}
 \end{figure}
 
@@ -429,19 +461,19 @@ atividades operacionais deve ser comparada à criação de valor em curso. E a c
 criação do novo valor.
 
 ``Gestão de operações em curso'' e ``Gestão de Programas e Projetos Autorizados'', que aparecem na parte inferior do triângulo, correspondem aos 
-componentes que garantem as operações da organização e que os portfolios sejam executados de forma eficaz e eficiente.\cite{sppm}
+componentes que garantem as operações da organização e que os portfolios sejam executados de forma eficaz e eficiente\cite{SPPM2008}.
 
-Ambos os aspectos operacionais e de projeto de uma organização devem ser considerados na gestão de portfolio. O lado operacional da organização, faz 
+Ambos os aspectos operacionais e de projeto de uma organização devem ser considerados na gestão de portfolio. O lado operacional da organização faz 
 uso recorrente de atividades e processos de operações de gestão que facilitam o planejamento efetivo do nível elevado. 
 
 Já pelo lado dos projetos da organização temos a utilização de programas/processos de gerenciamento de projetos que permitem o planejamento eficiente do 
 projeto e as atividades de implementação.
 
-Ao nível da gestão táctica, a pergunta é: ``Esta operação ou projeto está sendo gerenciado de forma eficiente com melhores resultados, com uma utilização 
+Ao nível da gestão tática, a pergunta é: ``Esta operação ou projeto está sendo gerenciado de forma eficiente com melhores resultados, com uma utilização 
 ótima dos recursos, com o esforço ótimo, e em conformidade com os valores organizacionais e normas?''
 
 A aplicação de gestão de portfolio, como citamos no início deste capítulo, deve permitir a interligação dos objetivos organizacionais com as estratégias de 
-gerência através do compartilhamento de objetivos e a alocação de recursos. O fluxo de controle é a seguinte: \cite{sppm}
+gerência através do compartilhamento de objetivos e a alocação de recursos. O fluxo de controle é a seguinte \cite{SPPM2008}:
 
 \begin{itemize}
  \item Propósito estratégico e a priorização de orientar para a determinação dos recursos financeiros que devem 
@@ -450,21 +482,21 @@ ser atribuídos ao portfolio.
 dos recursos. Esses componentes são gerenciados de acordo com os princípios de gestão do portfolio descritos na ``Standard of Portfolio Management''.
   \item Cada programa corresponde ao subconjunto delegado da intenção estratégica global, que irá disponibiliza-los por meio dos recursos alocados.
   \item Cada projeto é definido pela sua contribuição à intenção estratégica do portfolio, e
-pode ser gerenciada de acordo com os princípios do PMBOK e outros princípios, conforme apropriado.
+pode ser gerenciado de acordo com os princípios do PMBOK e outros princípios, conforme apropriado.
 \end{itemize}
 
-Neste sentido, o portfolio funciona como um elo entre a visão e os objetivos que constam da estratégia organizacional e a execução de atividades que 
+Neste sentido, o portfolio funciona como um elo entre a visão, os objetivos que constam da estratégia organizacional e a execução de atividades que 
 levarão ao cumprimento dos objetivos. A estratégia organizacional dá o direcionamento para a priorização e distribuição de recursos entre os componentes. 
 Por outro lado, o portfolio deve refletir esta estratégia e cada componente deve ser responsável por um subconjunto de objetivos estratégicos a serem 
-atingidos.\cite{ricardo}
+atingidos.
 
 Há que se considerar que no contexto da gestão de portfolio, o vínculo dos projetos com a estratégia da empresa pode ser realizado por meio de duas 
 abordagens. A primeira é top-down, utilizando a visão, metas e planos estratégicos da organização para um plano de ataque com definição de prioridades 
 de alocação de recursos para programas e projetos. A outra é bottom-up: indutivo e distribuído na organização por meio da proposição individual de 
-projetos: indicadores de alinhamento na avaliação individual dos projetos. 
+projetos, indicadores de alinhamento na avaliação individual destes. 
 
 É importante ressaltar que as duas abordagens são complementares, uma compensa as limitações da outra e que uma boa gestão de portfolio precisa ser 
-capaz de contemplar ambas as situações.\cite{artigo}
+capaz de contemplar ambas as situações.
 
 \section{Selecionando projetos}
 Um dos maiores desafios da gestão de portfolio é selecionar os projetos corretos, fazendo com que esses tenham maior prioridade. Existem diversas 
@@ -473,14 +505,14 @@ custos, tempo e outros.
 
 A definição de uma metodologia para a seleção de projetos é um processo estratégico que deve ser feito antecipadamente a outros processos relacionados à 
 seleção, a fim de proporcionar o alinhamento estratégico dos projetos. Tal metodologia deve ser flexível, baseada no entendimento dos tomadores de 
-decisão a respeito das formas de selecionar existentes e na disposição para aprender novas abordagens\cite{archer}.
+decisão a respeito das formas de selecionar existentes e na disposição para aprender novas abordagens\cite{ARCHER1999}.
 
-De acordo com Carl Neun, o CFO da Wilsnville \cite{johnson}, “A realidade é que quando alocamos grandes investimentos, técnicas fazem uma grande 
-diferença”. Os tomadores de decisão da organização necessitam de critérios que sejam dinâmicos porém consistentes para avaliar as oportunidades e selecionar
+De acordo com Carl Neun, o CFO da Wilsnville \cite{JOHNSON2009}, “A realidade é que quando alocamos grandes investimentos, técnicas fazem uma grande 
+diferença”. Os tomadores de decisão da organização necessitam de critérios que sejam dinâmicos, porém consistentes para avaliar as oportunidades e selecionar
 o conjunto de projetos capazes de refletir os objetivos estratégicos traçados. Sendo assim, podemos dizer que a gestão do portfolio é o caminho.
 
 O planejamento estratégico deve ser capaz de balancear os esforços da organização em termos de prazos curtos versus prazos longos, crescimento versus retorno
-monetário, ciclo de vida do negócio, oportunidades de mercados, entre outras, tudo isso sem esquecer que a organização deverá manter uma saudável gestão
+monetário, ciclo de vida do negócio, oportunidades de mercados, entre outros, tudo isso sem esquecer que a organização deverá manter uma saudável gestão
 de riscos.
 
 Vamos apresentar agora algumas técnicas e frameworks criados para o auxílio dessa primeira etapa da gestão, lembrando que se os projetos selecionados 
@@ -488,10 +520,10 @@ estiverem em desacordo com as metas organizacionais há grande possibilidade da 
 
 \subsection{Método dos Fatores Críticos de Sucesso}
 Uma das primeiras propostas para o problema de seleção e priorização de projetos de TI foi o método dos Fatores Críticos de Sucesso (FCS),
-proposto por \cite{rockart} . Esse método, que ainda é amplamente utilizado, foca, principalmente, os sistemas de informação gerenciais
-e executivos, e é baseado na definição, por parte dos altos executivos, das atuais necessidades representadas pelos FCS.
+proposto por \citeonline{ROCKART1979} . Esse método, que ainda é amplamente utilizado, foca principalmente os sistemas de informação gerenciais
+e executivos e é baseado na definição, por parte dos altos executivos, das atuais necessidades representadas pelos FCS.
 
-Ainda segundo\cite{rockart} os FCS podem ser definidos como as áreas onde um resultado sendo satisfatório ``garante o sucesso competitivo da organização",
+Ainda segundo\citeonline{ROCKART1979} os FCS podem ser definidos como as áreas onde um resultado sendo satisfatório ``garante o sucesso competitivo da organização'',
 e define também que os principais FCS poderão ser identificados em diversos setores, tais como a estrutura de um setor em si, na posição da indústria, 
 na localização geográfica e nos fatores ambientais e temporais.
 
@@ -500,21 +532,21 @@ meio da escolha de uma das três possíveis estratégias genéricas: liderança 
 
 A competitividade de uma indústria resulta da ação de cinco forças: clientes, fornecedores, produtos substitutos, novos entrantes e a rivalidade entre 
 os competidores atuais. Quanto mais intensas forem essas forças, maior a concorrência entre as empresas de uma indústria e, por conseguinte, menor o 
-potencial de lucratividade.\cite{porter1, porter2} 
+potencial de lucratividade.\cite{PORTER1979, PORTER1996} 
 
 \subsection{Grid Estratégico}
-Uma outra importante análise da seleção de projetos foi realizada por \cite{mcfarlan}, essa seleção é feita levando em consideração os riscos associados
+Uma outra importante análise da seleção de projetos foi realizada por \cite{McFARLAN1981}, essa seleção é feita levando em consideração os riscos associados
 a cada projeto e também os riscos do portfolio como um todo. Onde esses riscos incluem custo, prazo, desempenho técnico, superstimação dos benefícios 
 dos sistemas e incompatibilidade de hardware e/ou software com o sistema. 
 
-O Grid Estratégico, uma técnica que permite a visualização da relação entre a estratégia de TI, atual e a carteira de aplicações (futuro), foi proposta 
-por \cite{mcfarlan} e define quatro regiões, cada qual representando um possível papel para a TI dentro da organização, são elas: Suporte, Fábrica, 
+O Grid Estratégico, uma técnica que permite a visualização da relação entre a estratégia de TI atual e a carteira de aplicações (futuro), foi proposto
+por \cite{McFARLAN1981} e define quatro regiões, cada qual representando um possível papel para a TI dentro da organização, são elas: Suporte, Fábrica, 
 Tranformação e Estratégico.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=.9\textwidth]{grid_estrategico.jpg}
-\caption{Grid Estratégico do impacto das aplicações de TI\cite{mcfarlan}.}
+\includegraphics[width=.7\textwidth]{img/fig5.png}
+\caption{Grid Estratégico do impacto das aplicações de TI\cite{McFARLAN1981}.}
 \end{figure} 
 
 \begin{itemize}
@@ -530,12 +562,12 @@ Tranformação e Estratégico.
 \end{itemize}
 
 \subsection{Modelos de Pontuação}
-Os modelos de pontuação são um método numérico, onde é permitido levar em consideração diversos critérios quando se faz a comparação dos projetos. Cada
+Os modelos de pontuação são um método numérico, em que é permitido levar em consideração diversos critérios quando se faz a comparação dos projetos. Cada
 critério deverá ser avaliado em uma escala de 1-5 ou 0-10, após tal avaliação os pontos serão multiplicados por pesos somados. A partir disso é possível
 obter uma pontuação individual para cada projeto. 
 
 Ao utilizar um modelo de pontuação, a seleção dos critérios deverá ser feita de forma cuidadosa e o refinamento dos critérios poderá levar anos. No modelo 
-de pontuação desenvolvido por Hoechst, são apresentados critérios que foram selecionados cuidadosamente e expressos em palavras, além de terem sido definidos 
+de pontuação desenvolvido por Hoechst são apresentados critérios que foram selecionados cuidadosamente e expressos em palavras, além de terem sido definidos 
 operacionalmente, foram testados e validados em busca de consistência por anos. Grande parte dos fatores utilizados por Hoechst encontra-se na tabela dois.
 
 \begin{table}[H]
@@ -572,7 +604,7 @@ operacionalmente, foram testados e validados em busca de consistência por anos.
   \ \ \ \ \ \ \ Disponibilidade de pessoas e facilidades\\
   \hline			
  \end{tabular}
-\caption{Critérios de classificação de projetos usados por Hoechst\cite{cooper}}
+\caption{Critérios de classificação de projetos usados por Hoechst\cite{COOPER2001}}
 \end{center}
 \end{table}
 
@@ -585,96 +617,136 @@ encontrada pela soma da pontuação de todos os fatores. Essa pontuação será 
 \subsection{Diagrama de Bolhas}
 Diagramas de bolhas é um método bastante conhecido e eficiente de suporte a decisões que dizem respeito a seleção e priorização de projetos. Com tais
 digramas, será possível apresentar em formato visual a composição completa de um portfolio, fornecendo assim uma melhor percepção do balanceamento do
-portfolio. \cite{cooper2}
+portfolio. \cite{COOPER2001b}
 
-Através de um plano bidimensional, onde é possível visualizar os eixos X e Y, mostram-se os projetos de um portfolio. E poderemos determinar que os 
+Através de um plano bidimensional, em que é possível visualizar os eixos X e Y, mostram-se os projetos de um portfolio. E poderemos determinar que os 
 valores de X e Y sejam pertencentes a qualquer dimensão de interesse, como por exemplo: risco, retorno, tempo, etc., porém algumas dimensões já se 
-tornaram padrões, tais como Risco x Retorno.\cite{cooper}
+tornaram padrões, tais como Risco x Retorno.\cite{COOPER2001}
 
-Outra possibilidade na utilização do diagrama de bolhas, é torna-lo mais rico através da utilização de novas cores, tamanhos e preenchimento dos círculos.
-Onde cada uma dessas características denotem um fato importante inerente ao projeto a ser avaliado.
+Outra possibilidade na utilização do diagrama de bolhas é torna-lo mais rico através da utilização de novas cores, tamanhos e preenchimento dos círculos, 
+em que cada uma dessas características denotem um fato importante inerente ao projeto a ser avaliado.
 
 A figura A SEGUIR apresenta um diagrama de bolhas, onde o tamanho diz respeito a quantidade de recursos que será necessária para o desenvolvimento do projeto
 e o preenchimento representa o tipo de projeto.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=.9\textwidth]{diagrama_bolhas.png}
-\caption{Exemplo diagrama de bolhas\cite{cooper}.}
+\includegraphics[width=.7\textwidth]{img/fig6.png}
+\caption{Exemplo diagrama de bolhas\cite{COOPER2001}.}
 \end{figure} 
 
 \subsection{Modelo de Archer para seleção}
-Com o intuito de simplificar o processo para a seleção de projetos \cite{archer} propõe um modelo para gestão de portfolio, esse modelo utiliza a 
+Com o intuito de simplificar o processo para a seleção de projetos, \cite{ARCHER1999} propõe um modelo para gestão de portfolio, esse modelo utiliza a 
 segmentação do processo em fases e estágios, desde as considerações referentes à estratégia inicial (que é a etapa mais ampla) até a montagem final do 
 portfolio.
 
-A figura a seguir apresenta o fluxo do modelo, onde é possível observar quais são as etapas primordiais para a seleção dos projetos que deverão comportar
+A figura a seguir apresenta o fluxo do modelo, em que é possível observar quais são as etapas primordiais para a seleção dos projetos que deverão comportar
 o portfolio.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=.9\textwidth]{archer.jpg}
-\caption{Framework para a seleção de projetos no portfolio\cite{archer}.}
+\includegraphics[width=.7\textwidth]{img/fig7.png}
+\caption{Framework para a seleção de projetos no portfolio\cite{ARCHER1999}.}
 \end{figure}
 
 O modelo apresentado pode ser dividido basicamente em três etapas: pré-processo, processo de seleção (possui fases) e pós-processo. As características 
 de cada estágio estão representadas no quadro a seguir e envolvem opções de metodologias ou ferramentas para a sua realização, a fim de obter a máxima 
-cooperação dos tomadores de decisão durante o processo de seleção dos projetos no portfolio \cite{archer}. 
+cooperação dos tomadores de decisão durante o processo de seleção dos projetos no portfolio \cite{ARCHER1999}. 
 
 \begin{table}[H]
 \begin{center}
- \begin{tabular}{| >{\arraybackslash\small}m{1.4in} | >{\arraybackslash\small}m{1.3in} | >{\arraybackslash\small}m{1.1in} | >{\arraybackslash\small}m{2in} |}
+ \begin{tabular}{| >{\centering\arraybackslash\small}m{1.4in} | >{\centering\arraybackslash\small}m{1.3in} | >{\centering\arraybackslash\small}m{1.5in} | >{\centering\arraybackslash\small}m{1in} |}
   \hline
   \rowcolor{purple} Estágio do processo & Estágio de seleção & Atividades & Metodologias potenciais \\
   \hline
    Pré-processo & Desenvolvimento da estratégia & Mapa estratégico, matriz de portfolio & Definidas na estratégia da organização \\
   \hline
   Processo de seleção do portfolio & Pré-busca & Rejeição de projetos que não atendam aos critérios & Critérios, foco estratégico, estudos de viabilidade \\
+  \cline{2-4} 
+	  & Análise individual dos projetos & Cálculo dos parâmetros comuns dos projetos  & Árvores de decisão, ROI, NPV \\
+  \cline{2-4} 
+	  & Busca & Rejeição de projetos não viáveis & Técnicas ad-hoc \\
+  \cline{2-4} 
+         & Seleção do portfolio & Verificação de interações, atributos dos projetos e restrições de recursos & AHP, scoring models, análises de sensibilidade \\
+  \cline{2-4} 
+	& Ajuste do portfolio & Ajustes direcionados aos usuários & Matrizes, análises de sensibilidade\\
   \hline
-	  &  & & \\
+  Pós-processo & Finalização do portfolio & Desenvolvimento dos projetos & Técnicas de gerenciamento de projeto, coleta de dados \\
   \hline
  \end{tabular}
-\caption{Critérios de classificação de projetos usados por Hoechst\cite{cooper}}
+\caption{Atividades e metodologias no framework de seleção do portfolio\cite{ARCHER1999}.}
 \end{center}
 \end{table}
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=.9\textwidth]{tabela_archer.jpg}
-\caption{Atividades e metodologias no framework de seleção do portfolio\cite{archer}.}
-\end{figure}
+\section{O Gerente de Portfolio}
+Geralmente o responsável por gerenciar o portfolio dentro de uma organização, acaba sendo um gerente de projetos com maior bagagem e experiência. Devido a
+seu conhecimento pelos processos existentes e acesso ao alto escalão da empresa. Onde serão tomadas decisões importantes referentes ao portfolio.
 
-\section{Benefícios da Gestão de Portfólio}
+Este será responsável por fazer o acompanhamento e gestão do portfolio através das seguintes atribuições \cite{SPPM2008}:
+
+\begin{itemize}
+ \item Exercer o papel fundamental nas decisões relacionadas a priorização de projetos, certificando-se que existe um equilíbrio entre os componentes, e que
+       estes estão alinhados com os objetivos estratégicos da organização.
+ \item Fornecer aos principais interessados uma avaliação antecipada e os componentes de desempenho. Bem como identificar precocemente a necessidade de 
+       uma intervenção ao portfolio em questões de risco e que possam estar impactando o desempenho.
+ \item Medir o valor do portfolio para a organização através de ferramentas de investimento, como ROI, VPL, PP.
+ \item Assegurar uma comunicação conveniente e coerente com as partes interessadas sobre o progresso, impactos e mudanças associadas ao porftolio. A fim de
+       manter o entendimento entre as partes e seu suporte aos objetivos e estratégias.
+ \item Participação em revisões de programas e projetos para refletir suporte ao alto escalão, liderança e envolvimento em questões importantes.
+\end{itemize}
+
+\section{Riscos}
+Durante os capítulos e sessões anteriores foi visto o quão importante e decisivos são os aspectos financeiros e estratégicos para o sucesso do portfolio. porém
+outra importante consideração que deve-se realizar ao determinar quais projetos irão compor o portfolio da organização é o risco correspondente a esta decisão.
+
+Independente da complexidade do projeto, sempre haverá certo valor de risco envolvido em sua execução, seja tecnológico, seja comercial. Dessa forma, pode-se
+dizer que alguns projetos possuem maior probabilidade de sucesso do que outros. Por isso é importante que se tenha conhecimento dos riscos envolvidos ao
+selecionar um projeto em detrimento do outro.
+
+No \citeonline{PMBOK2008} são listados seis processos de gerenciamentos de riscos: planejamento da gestão do risco, identificação dos riscos, análise qualitativa dos
+riscos, análise quantitativa dos riscos, planejamento das respostas aos riscos e monitoramento e controle dos riscos.
+
+Geralmente as organizações fazem uso de métodos qualitativos de gerenciamento de riscos que contemplam a probabilidade de ocorrer alguma falha em determinada
+tarefa do projeto e o impacto que isso representa. Este tipo de análise tem como objetivo determinar que atividades de um determinado projeto representam
+maior ameaça para este.
+
+Utiliza-se normalmente uma matriz ``impacto x probabilidade'' dividida em três regiões: alto risco, médio risco e baixo risco. A partir daí, será possível 
+determinar as ações que deverão ser tomadas mediante o risco encontrado. Para aqueles riscos que apresentam ameaça significativa, devem-se considerar hipóteses
+de mitigação (redução do impacto ou da probabilidade da ocorrência do risco através de medidas preventivas). Ou até mesmo a possibilidade de transferir esse
+risco caso a ameaça apresentada seja muito grande. Riscos com menor grau de exposição podem-se utilizar de planos de contingência ou até mesmo ignorá-los, caso
+a ameaça seja de fato muito pequena.
+
+\section{Benefícios da Gestão de Portfolio}
 Existem diversos benefícios em se utilizar a gestão de portfolio, como já citado, a mesma provê uma visão mais ampla de todos os projetos da instituição 
 e a situação em que estes se encontram.
 
 A ferramenta utilizada para o controle da gestão pode ainda trazer outras informações que também necessitam ser avaliadas pelos altos executivos da 
 organização nas tomadas de decisão quanto a manter ou não um projeto e ainda as prioridades referentes a escolha.
 
-Entre os principais benefícios da gestão de portfolio podemos citar:\cite{atila}
+Entre os principais benefícios da gestão de portfolio podemos citar:
 
 \begin{itemize}
  \item Eliminação de projetos duplicados. Projetos idênticos, ou muito similares, sendo conduzidos em duas ou mais áreas na empresa podem ser fundidos em um só, reduzindo custos e evitando incompatibilidades no futuro.
  \item Combinação de projetos gerando economias de escala. Projetos que, embora não sejam idênticos, fazem sentido de serem executados juntos, pela mesma equipe e próximos no tempo. Um exemplo seriam projetos que produzem muitas entradas um para o outro.
  \item Visão clara da interdependência entre projetos. É mais fácil perceber quais saídas do projeto A devem ser entradas para o projeto B e vice-versa.
  \item Orienta a coordenação no tempo de diferentes projetos: o que deve acontecer no projeto A antes que se possa executar a tarefa X no projeto B.
- \item Redução da prioridade de projetos necessários, mas menos importantes ou urgentes. Ao comparar o escopo do projeto com as necessidades estratégicas da organização, é possível detectar quais projetos podem ser deixados para depois, quando houver mais recursos disponíveis.
+ \item Redução da prioridade de projetos necessários, mas menos importantes ou urgentes. Ao comparar o escopo do projeto com as necessidades estratégicas da organização, é possível detectar quais projetos podem ser deixados para depois quando houver mais recursos disponíveis.
  \item Aumento da prioridade de projetos estratégicos, mas de baixa visibilidade. Da mesma forma, o exame da relevância do projeto para o cumprimento das metas estratégicas pode levar à priorização e alocação de recursos adicionais a um projeto cuja visibilidade esteja baixa, 
-talvez por falta de patrocinadores poderosos.
+       talvez por falta de patrocinadores poderosos.
  \item Otimização da alocação de recursos e talentos. A Gestão de Portfolio de Projetos provê orientação na formação de equipes, usando as habilidades das pessoas onde contam mais. Se existe alguém na organização que é um expert em uma das fases-padrão dos projetos normalmente 
-executados, por que esta pessoa deveria estar “fixa” em uma equipe que pega um projeto após o outro, participando também das atividades nas quais não é tão bom assim? Se João é um ótimo especificador de requisitos, mas um desenvolvedor apenas mediano, que sentido tem ele fazer 
+executados, por que esta pessoa deveria estar “fixa” em uma equipe que pega um projeto após o outro, participando também das atividades nas quais não é boa assim? Se João é um ótimo especificador de requisitos, mas um desenvolvedor apenas mediano, que sentido tem ele fazer 
 tudo na equipe? Não é melhor que ele especifique os requisitos no projeto A, depois vá fazer o mesmo no projeto B e assim por diante? Com a visão global que a Gestão de Portfolio dá, é possível planejar melhor o emprego dos especialistas nos diversos projetos.
  \item Visão clara do que deve ser feito pela “prata-da-casa” e o que pode ou deve ser terceirizado. Projetos críticos que exijam a participação intensa de pessoal interno são mais facilmente identificados, de modo que podemos deixar os outros projetos como candidatos à terceirização.
  \item Identificação de necessidades de contratação e treinamento. Como a Gestão de Portfolio provê uma visão de médio a longo prazo para os projetos da organização, é possível identificar com bastante antecedência quais serão as competências necessárias no momento em que os projetos 
 começarem. Nada de treinar pessoas depois que o projeto já começou! Da mesma forma, é possível antecipar se será necessário trazer gente nova para o time.
 \end{itemize}
 
-\section{Desafios da Gestão de Portfólio}
-Apesar de ser aparentemente simples integrar os projetos e processos da organização as metas estratégicas traçadas, a gestão de portfolio encontra alguns 
-desafios. Sendo o principal deles a priorização dos projetos. A forma como será definido para que projeto determinados recursos deverão ser alocados, 
+\section{Desafios da Gestão de Portfolio}
+Apesar de ser aparentemente simples integrar os projetos e processos da organização, as metas estratégicas traçadas, a gestão de portfolio encontra alguns 
+desafios. Sendo o principal deles a priorização dos projetos. A forma como definida para que projeto determinados recursos deverão ser alocados, 
 levando em conta a existência de recursos escassos, ou seja, como dividir tais recursos entre os projetos existentes.
 
-Segundo Cooper (2001), as principais causas para um fraco gerenciamento de portfolio são:
+Segundo \citeonline{COOPER2001}, as principais causas para um fraco gerenciamento de portfolio são:
 \begin{itemize}
  \item Estratégica;
  \item Projetos de baixo valor;
@@ -683,32 +755,32 @@ Segundo Cooper (2001), as principais causas para um fraco gerenciamento de portf
 \end{itemize}
 
 Visto que os recursos são escassos, as principais questões são: a priorização de projetos e a realocação dos recursos. Sendo assim, há uma forte competição 
-por recursos entre os projetos, e muitas vezes uma falta de clareza na prioridade dos projetos dificulta o gerenciamento do portfolio.
+por recursos entre os projetos e, muitas vezes, uma falta de clareza na prioridade dos projetos dificulta o gerenciamento do portfolio.
 
 Outro grande desafio encontrado diz respeito a tomada de decisão sobre os investimentos, levando em consideração novamente a escassez de recursos e as 
 necessidades estratégicas da organização. 
 
 Ainda podemos colocar o balanceamento do portfolio como desafio final, ou seja, uma metodologia que consiga 
 desenvolver uma prática balanceada para a escolha do investimento ideal entre o risco do portfolio e o retorno, a manutenção necessária e o crescimento 
-alcançado, projetos curtos e projetos longos.\cite{cooper}
+alcançado, projetos curtos e projetos longos.\cite{COOPER2001}
 
-\chapter{Modelos para Gestão de Portfólio} 
+\chapter{Modelos para Gestão de Portfolio} 
 A elaboração de um modelo deve levar em conta os principais desafios apresentados para a questão e uma solução para tais. Caso essas questões não sejam 
 observadas e estudadas, o modelo proposto poderá pender para um ou outro benefício da gestão, o que não resolverá o problema como um todo e será apenas 
 mais  uma alternativa e não uma solução de fato. 
 
 Para que seja possível elaborar um modelo deve-se também levar em conta os problemas específicos identificados na literatura teórica referente ao
 gerenciamento de portfolio, ou seja: falta de alinhamento estratégico; baixa qualidade da carteira; faltas de critérios formais; interdependência 
-técnica/comercial, entre outros \cite{martino1, martino2, cooper}.
+técnica/comercial, entre outros \cite{MARTINO1993, COOPER2001}.
 
 A seguir serão apresentados alguns dos modelos estudados, suas definições e detalhes pertinentes para seu entendimento.
 
 \section{Cooper, Edgett e Kleinschmidt}
-Para Cooper a gestão de portfolio pode ser definida por dois processos chaves, sendo eles: ``Stage and Gate'', onde são realizadas as tomadas de 
-decisões individuais sobre cada projeto; e o ``Go and Kill``, onde são realizadas as revisões de projetos individuais em andamento e revisões 
+Para \citeonline{COOPER2001}, a gestão de portfolio pode ser definida por dois processos chaves, sendo eles: ``Stage and Gate'', em que são realizadas as tomadas de 
+decisões individuais sobre cada projeto; e o ``Go and Kill``, no qual são realizadas as revisões de projetos individuais em andamento e revisões 
 sobre o portfolio que vem sendo trabalho. Nesta seção apresentaremos mais detalhes sobre tais processos.
 
-Em Cooper et al, o processo de gestão de portfolio é descrito como um sistema integrado de tomada de decisão, sendo que a condição básica para tal definição
+Ainda em \citeonline{COOPER2001}, o processo de gestão de portfolio é descrito como um sistema integrado de tomada de decisão, sendo que a condição básica para tal definição
 é ``que a escolha de projetos de novos produtos é a operacionalização da estratégia''. Dessa forma, é possível verificar que o autor considera que a definição
 da estratégia de negócios é responsável por influenciar grande parte das etapas existentes em seu modelo.
 
@@ -717,23 +789,23 @@ A primeira etapa do modelo, ``Stage and Gate'', é um processo formal utilizado 
 execução,...). 
 
 Após cada estágio, um projeto passara por um processo de decisão, nomeado passagem (``Gate''), que consiste na avaliação por um grupo de gerentes se este 
-deverá continuar ou finalizar ( ``Go and Kill''), nessa etapa é também possível tomar decisões relacionadas a priorização do projeto em questão. Além disso
+deverá continuar ou finalizar ( ``Go and Kill''), nessa etapa é também possível tomar decisões relacionadas a priorização do projeto em questão. Além disso,
 nas passagens é o momento de realizar a alocação de recursos necessários para o desenvolvimento do mesmo.
 
 Deve-se lembrar que os critérios utilizados para avaliação realizada nos ``Gates'' devem ser bastante consistentes e levar em consideração as metas e objetivos
-traçados estrategicamente pela organização, pois nessa etapa, projetos que não serão capazes de alcançar tais parâmetros serão eliminados. Levando em conta
+traçados estrategicamente pela organização, pois nessa etapa projetos que não serão capazes de alcançar tais parâmetros serão eliminados. Levando em conta
 que vários critérios são frequentemente requeridos para selecionar projetos, é recomendável a utilização de um modelo de pontuação (scoring model) nesta etapa.
 
-Os modelos de pontuação tem sido adaptados e modificados ao longo dos anos, e por passarem por tais processos sua utilização é apontada como imprescindível 
+Os modelos de pontuação têm sido adaptados e modificados ao longo dos anos e, por passarem, por tais processos sua utilização é apontada como imprescindível 
 na etapa de seleção de projetos e também no momento de definir aqueles que terão continuidade. 
 
-Tais modelos podem ser utilizados na construção dos objetivos traçados pela organização no momento do planejamento estratégico, onde teremos metas e 
+Tais modelos podem ser utilizados na construção dos objetivos traçados pela organização no momento do planejamento estratégico, em que teremos metas e 
 critérios já determinados, e também com suas prioridades bem definidas.
 
 A segunda etapa do projeto leva em consideração a pontuação final recebida pelo projeto no processo anterior. Essa pontuação poderá ser realizada durante o
 ``Gate'' ou ainda previamente pelos responsáveis da área em questão. 
 
-Os recursos serão alocados nos projetos aprovados neste momento (go projects), e em seguida será realizado um processo de priorização relativa dos 
+Os recursos serão alocados nos projetos aprovados neste momento (go projects) e, em seguida, será realizado um processo de priorização relativa dos 
 projetos (levando em conta a pré-alocação dos recursos realizada na etapa anterior) com base na pontuação individual recebida.
 
 Mesmo sendo possível afirmar que a classificação dos projetos realizada utilizando-se critérios financeiros somados a outros, os modelos de pontuação
@@ -746,7 +818,7 @@ Assim, o alinhamento estratégico e o balanceamento do portfolio poderão ser al
 uma discussão do impacto gerado pelas decisões sob tais projetos individualmente no portfolio geral da organização. 
 
 Podemos ainda utilizar modelos de pontuação que fazem uso de critérios estratégicos para alcançar tal alinhamento. Não esquecendo que fatores como riscos,
-incertezas e probabilidade de sucesso devem ser levados em consideração no momento da tomada de decisão final sobre qual será o portfolio, e estes 
+incertezas e probabilidade de sucesso devem ser levados em consideração no momento da tomada de decisão final sobre qual será o portfolio e estes 
 deverão ser visíveis e relembrados durante o processo de avaliação.
 
 O processo de seleção de projetos também deverá ser capaz de lidar com mudanças e interações das metas da organização. Fazendo assim com que o sistema seja 
@@ -755,11 +827,11 @@ apresenta a primeira etapa do modelo, ``Stage and Gate''.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=.9\textwidth]{stage_and_gate.png}
+\includegraphics[width=.9\textwidth]{img/fig8.png}
 \caption{Processo Stage and Gate}
 \end{figure}
 
-O modelo prevê também etapas de revisão do portfolio, que consistem basicamente em realizar uma reavaliação periódica do portfolio, que poderá ser feita
+O modelo prevê também etapas de revisão do portfolio, que consistem basicamente em realizar uma reavaliação periódica do portfolio, podendo ser feita
 anualmente, semestralmente ou trimestralmente, ficando a critério da organização tal decisão. Nesta etapa, os projetos ativos passarão por uma revisão
 e serão comparados aos demais, o balanceamento do portfolio será considerado sobre diversas dimensões. 
 
@@ -767,7 +839,7 @@ Essa é uma oportunidade de se obter uma visão holística e realizar considera�
 diferentes ferramentas para um melhor aproveitamento desta etapa, dentre elas podemos citar: diagramas, gráficos, modelos financeiros e abordagens 
 estratégicas.
 
-Através destes é possível obter uma visualização mais claras das informações pertinentes ao portfolio e aos projetos individualmente, 
+Através destes é possível obter uma visualização mais clara das informações pertinentes ao portfolio e aos projetos individualmente, 
 porém não serão fatores ou ferramentas utilizados para a tomada de decisão, será responsabilidade dos gestores definir quais projetos continuam e quais 
 deverão ser finalizados.
 
@@ -790,8 +862,8 @@ importante na gestão do portfolio. A figura A SEGUIR demonstra as tarefas reali
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=.9\textwidth]{gpp_total_cooper.png}
-\caption{Processos da Gestão de Portfólio\cite{cooper}}
+\includegraphics[width=.7\textwidth]{img/fig9.png}
+\caption{Processos da Gestão de Portfolio\cite{COOPER2001}}
 \end{figure}
 
 Cada projeto recebe atenção individual durante as decisões de passagem, ou seja, cada projeto irá mudar de um estágio para o outro de forma individual,
@@ -806,21 +878,21 @@ consideração o portfolio como um todo, além dos projetos individuais.
 Já a primeira diz respeito apenas ao projeto, e assim a discussão de critérios acaba por ser feita de forma mais particular. Enquanto a revisão deve 
 levar em conta o balanceamento e o alinhamento estratégico ideal do portfolio final.
 
-Sendo assim, pode-se verificar que o modelo em questão possui dois grandes blocos, a etapa ``Stage and Gate'' e a etapa de Revisão do Portfólio, sendo que
-estes se comunicam entre si. O primeiro tem como intuito detalhar quais serão os critérios e os pontos de decisão, ou seja, os ``Gates'' propriamente ditos,
-é possível detalhar essa etapa da seguinte forma:
+Sendo assim, pode-se verificar que o modelo em questão possui dois grandes blocos, a etapa ``Stage and Gate'' e a etapa de Revisão do Portfolio, sendo que
+estes se comunicam entre si. O primeiro tem como intuito detalhar quais serão os critérios e os pontos de decisão, ou seja, os ``Gates'' propriamente ditos.
+É possível detalhar essa etapa da seguinte forma:
 
 \begin{itemize}
  \item Verificação do atendimento aos critérios: aqui, segundo o autor, é onde será possível verificar se o projeto individualmente atende aos critérios
        estabelecidos, principalmente no que diz respeito aos critérios definidos de acordo com o alinhamento estratégico. É sugerido que se crie uma espécie
-       de checklist com os critérios a serem verificados, onde será registrado se o projeto atende ou não as determinações.
+       de checklist com os critérios a serem verificados, no qual será registrado se o projeto atende ou não as determinações.
  \item Obtenção de notas: sendo o projeto aprovado no estágio anterior, neste momento ele deverá receber notas nos critérios determinados. Tais notas serão
        utilizadas para definir se o projeto deverá ser continuado ou entrar em suspensão.
  \item Priorização do projeto: em caso de continuação do projeto, neste momento ele deverá receber uma prioridade e será sinalizado a necessidade de alocação
-       de recursos para sua execução. Tanto essa etapa quanto a anterior possuem relação direta com a Revisão do Portfólio, sendo que a segunda etapa é
+       de recursos para sua execução. Tanto essa etapa quanto a anterior possuem relação direta com a Revisão do Portfolio, sendo que a segunda etapa é
        responsável por fornecer informações de cada projeto individualmente, que após serem comparadas entre si, fornecerão informação sobre a quantidade
        de projetos viáveis para o desenvolvimento - o que também leva em conta a quantidade de recursos disponível e demandada. Para que tal retorno seja
-       possível, a Revisão do Portfólio exige que seja realizada a:
+       possível, a Revisão do Portfolio exige que seja realizada a:
        \begin{itemize}
 	  \item Identificação de projetos estratégicos: ao final da verificação sobre a necessidade ou não da revisão das estratégias, é possível determinar
 		quais projetos serão obrigatórios para que a estratégia seja alcançada.
@@ -833,16 +905,16 @@ estes se comunicam entre si. O primeiro tem como intuito detalhar quais serão o
 	é possível a realização de um ajuste no modelo de decisão utilizado na etapa ``Gates'', a fim de corrigir as distorções detectadas.
 \end{itemize}
 
-Tanto a etapa ``Stage and Gate'' quanto a Revisão do Portfólio são necessárias para o sucesso do modelo, e nenhuma etapa de decisão poderá ser determinada
+Tanto a etapa ``Stage and Gate'' quanto a Revisão do Portfolio são necessárias para o sucesso do modelo e nenhuma etapa de decisão poderá ser determinada
 com tamanha perfeição, que será capaz de eliminar a necessidade de existência de uma ou outra. Levando isso em conta, pode surgir a questão: Qual dos 
 processos deverá ser dominante?
 
 Se considerarmos que a Revisão predomina, assim anualmente será feita uma reunião sobre o portfolio apenas para verificar que alguns projetos deverão
 ser executados no próximo ano. As atualizações feitas trimestralmente serão responsáveis por assegurar que o sistema está se adaptando as mudanças
-e que as informações e a lista do portfolio vem sendo atualizada e está acontecendo. 
+e que as informações e a lista do portfolio vêm sendo atualizada e está acontecendo. 
 
 Utilizar unicamente o processo de revisão não garante a etapa de ``Continuar'' referente a projetos individuais, pois cada um ainda apresentará a 
-necessidade de passar pelo processo ``Stage and Gate'', e este poderá sobrescrever a decisão final do portfolio. Entretanto, tal situação raramente 
+necessidade de passar pelo processo ``Stage and Gate'' e este poderá sobrescrever a decisão final do portfolio. Entretanto, tal situação raramente 
 acontece, a menos que se tenha um projeto bastante problemático.
 
 E se considerarmos a etapa ``Stage and Gate'' como predominante, as decisões de passagens serão determinantes e a revisão será utilizada apenas como
@@ -856,47 +928,45 @@ passagens. É fortemente recomendado que os responsáveis por um processo sejam 
 Como características positivas deste modelo podemos destacar a existência de dois blocos que mesmo distintos trabalham de forma bastante integrada, 
 além do desdobramento destes em etapas que já serão responsáveis por direcionar a sua aplicação direta.
 
-Uma crítica que pode ser feita ao modelo, é o fato de não considerar a possibilidade de um feedback de nenhum dos blocos dizendo respeito às estratégias
-organizacionais traçadas, bem como, o fato de não apresentar detalhes sobre as ferramentas e procedimentos específicos que deveriam ser utilizados
+Uma crítica que pode ser feita ao modelo é o fato de não considerar a possibilidade de um feedback de nenhum dos blocos dizendo respeito às estratégias
+organizacionais traçadas, bem como o fato de não apresentar detalhes sobre as ferramentas e procedimentos específicos que deveriam ser utilizados
 para a determinação de novos projetos.
 
 \section{Rabechini, Maximiano e Martins}
 Apresenta seis dimensões, podendo ser utilizado por profissionais e demais interessados em gerenciamento de projetos, com ênfase em portfolio. Tem papel
 fundamental na difusão de práticas gerenciais nas organizações, apesar de sua característica abstrata e não tangível. A primeira das seis dimensões diz 
-respeito à preparação do processo para o gerenciamento de portfolio\cite{rabechini}. 
+respeito à preparação do processo para o gerenciamento de portfolio\cite{RABECHINI2005}. 
 
-A primeira das seis dimensões diz respeito à preparação do processo para o gerenciamento de portfolio. Nesta dimensão o fator preponderante  
-é o planejamento estratégico da organização e que as metas e objetivos traçados estejam claros para o alto escalão da organização, 
-pois estes serão os responsáveis por delinear o contexto estratégico e explorar o planejamento de forma a adequar o portfolio as estratégias traçadas. 
+Nesta dimensão o fator preponderante é o planejamento estratégico da organização e que as metas e objetivos traçados estejam claros para o alto escalão da 
+organização, pois estes serão os responsáveis por delinear o contexto estratégico e explorar o planejamento de forma a adequar o portfolio as estratégias 
+traçadas. 
 
 É preciso que os interessados conheçam de forma ampla o modelo de negócio para poder enquadrar os projetos e avaliá-los
-corretamente, quando necessário.\cite{rabechini}
+corretamente quando necessário.\cite{RABECHINI2005}
 
-Ainda nesta dimensão, além da necessidade de entendimento dos elementos estratégicos, se faz necessário a exploração do conhecimento das metodologias 
+Ainda nesta dimensão, além da necessidade de entendimento dos elementos estratégicos, faz-se necessário a exploração do conhecimento das metodologias 
 utilizadas para a avaliação dos projetos. Ou seja, será necessário que os interessados na gestão de portfolio de projetos possuam conhecimento de quais 
 os procedimentos a serem obedecidos e as considerações de negócios que circundam todos os projetos existentes na organização.
 
-Este processo deve contemplar os seguintes elementos:\cite{rabechini}
+Este processo deve contemplar os seguintes elementos:\cite{RABECHINI2005}
 
 \begin{itemize}
  \item Identificação dos critérios de avaliação – neste elemento
-os administradores da organização devem mostrar clara-
-mente seus objetivos e o gerente de portfolio deverá
+os administradores da organização devem mostrar claramente seus objetivos e o gerente de portfolio deverá
 entender os aspectos e indicadores pretendidos pela alta
 administração.
-\item Estabelecimento de pesos para tais critérios – neste ele-
-mento espera-se ter graus para diferenciar a importância
-de cada critério, levantado anteriormente.
+\item Estabelecimento de pesos para tais critérios – neste elemento espera-se ter graus para diferenciar a importância
+de cada critério levantado anteriormente.
 \end{itemize}
 
 Ao término da primeira dimensão, o organização deverá notar um grande avanço na gestão de portfolio no que diz respeito a estruturação de sua carteira 
-de trabalho (os projetos do portfolio). Sendo assim a segunda dimensão, que diz respeito a identificação de projetos, poderá ser considerada.
+de trabalho (os projetos do portfolio). Sendo assim, a segunda dimensão, que diz respeito a identificação de projetos, poderá ser considerada.
 
 Tendo em vista levantar todas as iniciativas, das áreas individuais da organização, para que possam ser reunidas de forma coerente e consistente, essa 
 dimensão tem como intuito a consideração das informações mínimas sobre os projetos. Nessa dimensão cabe a cada área fornecer justificativas e informações
 sobre seus projetos para que estes possam ser considerados como parte do portfolio. 
 
-Podem ser apresentados documentos contendo informações como riscos, custos, prazos e outras informações inerentes a tal projeto. Porém as informações 
+Podem ser apresentados documentos contendo informações como riscos, custos, prazos e outras informações inerentes a tal projeto. Porém, as informações 
 prioritárias dessa dimensão são: objetivo, valores de prazo e custo, premissa para serem realizados com sucesso, indicadores a serem alcançados, 
 restrições envolvidas e riscos que porventura possam ocorrer durante sua execução. No final deste levantamento, a saída dessa dimensão será uma lista de 
 projetos.
@@ -906,29 +976,29 @@ definir uma nova lista, porém dessa vez com os projetos priorizados, ou seja, e
 definidos na primeira dimensão, agregando assim valor aos projetos. 
 
 Para isto deve-se inicialmente proporcionar a realização de rodadas de avaliação – aqui se espera ter elegido os avaliadores credenciados pela organização 
-e com eles estabelecer as notas para cada critério, projeto a projeto. Os conceitos de avaliação de portfolio desenvolvidos por \cite{cooper} foram 
+e com eles estabelecer as notas para cada critério, projeto a projeto. Os conceitos de avaliação de portfolio desenvolvidos por \cite{COOPER2001} foram 
 denominados de – ``Stage and Gate'' – e constituem a base para o desenvolvimento das avaliações.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=.9\textwidth]{rabechini.jpg}
-\caption{As seis dimensões do modelo de \cite{rabechini}}
+\includegraphics[width=.7\textwidth]{img/fig10.png}
+\caption{As seis dimensões do modelo de \cite{RABECHINI2005}}
 \label{fig:exampleFig1}
 \end{figure}
 
 Nas rodadas de avaliação será possível estabelecer as informações de cada projeto e assim apresentar ao final informações que serão utéis para a análise 
-preliminar do portfolio. Nessa dimensão um aspecto importante que deverá ser levado em conta serão as ``linhas de corte'' para os projetos, pois nesse 
-momento já é possível identificar as barreiras de cada projeto individualmente. Ou seja, ao término das avaliações os projetos que ainda estão presentes 
+preliminar do portfolio. Nessa dimensão, um aspecto importante que deverá ser levado em conta serão as ``linhas de corte'' para os projetos, pois nesse 
+momento já é possível identificar as barreiras de cada projeto individualmente. Ou seja, ao término das avaliações, os projetos que ainda estão presentes 
 serão os candidatos para a formação do portfolio.
 
 A próxima dimensão, constituição da carteira, tem o intuito de estabelecer um plano de gerenciamento de portfolio. O estabelecimento de prazos é 
-recomendado por \cite{clark}, prazos estes que devem ser de até um ano para alocação de recursos. 
+recomendado por \cite{WHEELWRIGHT1993}, prazos estes que devem ser de até um ano para alocação de recursos. 
 
 Neste modelo é considerado que a dimensão atual deverá também ser precedida de um plano agregado do portfolio, pois nessa dimensão o aspecto de maior 
 importância deve-se a observação de que neste momento serão selecionados os novos projetos que farão parte do portfolio e haverá então a disputa pelos 
 recursos disponibilizados pela organização.
 
-Na quinta dimensão, administração, constituiu-se a partir do modelo de \cite{crawford} quando esse se refere ao aspecto do gerenciamento. Os elementos 
+Na quinta dimensão, administração, constituiu-se a partir do modelo de \cite{CRAWFORD2002} quando esse se refere ao aspecto do gerenciamento. Os elementos 
 inerentes a esta dimensão são: o controle dos recursos aos diversos projetos em curso, o acompanhamento do ciclo de vida, projeto a projeto, os custos e 
 cronogramas financeiros e a qualidade do portfolio. 
 
@@ -937,7 +1007,7 @@ treinamentos e coaching, quando necessário, uma vez que o sucesso da carteira d
 
 Ao final, temos a sexta dimensão, que diz respeito a revisão e controle. Tendo em vista que os projetos já foram selecionados, já existe a gerência do 
 portfolio, cabe ao gerente de portfolio revisar o mesmo e acompanhar o desenvolvimento dos projetos. A metodologia para o acompanhamento pode ser através 
-de reuniões com os gerentes de projetos ou alguma outra forma intituída pela organização. Cabe aos gerentes de projeto fornecer segundo a metodologia de 
+de reuniões com os gerentes de projetos ou alguma outra forma intituída pela organização. Cabe aos gerentes de projeto fornecer, segundo a metodologia de 
 gerência de projetos adotada pela organização, os indicadores de andamento de cada projetos
 
 A partir daí, o gerente de portfolio será capaz de tomar decisões sobre a constituição do portfolio.
@@ -945,7 +1015,7 @@ A partir daí, o gerente de portfolio será capaz de tomar decisões sobre a con
 \section{O padrão apresentado pelo PMI}
 Em sua segunda edição do padrão para o gerenciamento de portfolio, o PMI apresenta uma a descrição de conhecimentos e práticas de gerenciamento de 
 portfolio aplicavéis e de reconhecida utilização. O padrão apresentado baseia-se no estabelecimento de processos que deverão possuir uma sequência lógica 
-de realização e agrupamento por similaridade de função, além de serem divididos por áreas de conhecimento. \cite{sppm}
+de realização e agrupamento por similaridade de função, além de serem divididos por áreas de conhecimento \cite{SPPM2008}.
 
 No modelo apresentado pelo PMI são definidos grupos de processos para o gerenciamento, os grupos aqui são definidos como de alinhamento e de monitoramento
 e controle. 
@@ -960,30 +1030,30 @@ por revisar periodicamente os indicadores estabelecidos e verificar os benefíci
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=.9\textwidth]{modelo_pmi.jpg}
-\caption{Processos do gerenciamento de portfolio \cite{sppm}.}
+\includegraphics[width=.9\textwidth]{img/fig11.png}
+\caption{Processos do gerenciamento de portfolio \cite{SPPM2008}.}
 \end{figure}
 
 Além da divisão dos processos em grupo, o padrão apresentado pelo PMI também divide os processos em áreas de conhecimento: a área de governança de 
 portfolio e a de gerenciamento de riscos.
 
-A primeira área incluirá os processos utilizados para a seleção e investimento no portfolio, o monitoramneto e o controle dos investimentos realizados, 
+A primeira área incluirá os processos utilizados para a seleção e investimento no portfolio, o monitoramento e o controle dos investimentos realizados, 
 a comunicação de decisões referentes a esses investimentos e a segurança de que os mesmos continuem alinhados ao planejamento estratégico da organização.
 
 A área de conhecimento de gerenciamento de riscos diz respeito à análise de condições ou eventos que, uma vez ocorridos, possam causar efeitos positivos 
 ou negativos a pelo menos um objetivo estratégico do portfolio. 
 
 O objetivo da gestão de riscos no portfolio de projetos de uma organização é maximizar a probabilidade ou o impacto de eventos positivos e minimizar 
-esses mesmos fatores, uma vez que possam influenciar negativamente o portfolio \cite{sppm}.
+esses mesmos fatores, uma vez que possam influenciar negativamente o portfolio \cite{SPPM2008}.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=.9\textwidth]{areas_conhecimento_pmi.png}
-\caption{Áreas de conhecimento do gerenciamento de portfolio \cite{sppm}.}
+\includegraphics[width=.7\textwidth]{img/fig12.png}
+\caption{Áreas de conhecimento do gerenciamento de portfolio \cite{SPPM2008}.}
 \end{figure}
 
 \section{Proposto}
-Os principais modelos estudados tomam como base métodos financeiros para a tomada de decisões, e somam a estes outras ferramentas bem comuns para seleção 
+Os principais modelos estudados tomam como base métodos financeiros para a tomada de decisões e somam a estes outras ferramentas bem comuns para seleção 
 de projetos. Dentre as quais cita-se: estratégia de negócio, no que diz respeito a alocação de recurso, os já supracitados métodos financeiros (Roi, NPV,
 RONA), diagramas de bolha ou mapas, modelos de pontuação e check list. A partir das informações coletadas, decidiu-se também pela combinação destes 
 ``critérios'', sem que um ou outro acabe priorizado.
@@ -991,12 +1061,12 @@ RONA), diagramas de bolha ou mapas, modelos de pontuação e check list. A parti
 Partindo deste presuposto, cabe ao alto escalão da organização, diretores e executivos, a escolha do critério primordial. Ou seja, não dita-se a ordem 
 espera-se que ao longo do processo seja possível de forma natural determinar qual a prioridade organizacional, fazendo assim com que esta seja o guia para 
 as saídas do portfolio. São determinadas quatro macro fases, nas quais o portfolio passa a ser delineado, até que por fim este possa ser visualizado através 
-de sua WBS ( Work Breakdown Structure ). Ao término do processo informações primordiais estarão dispostas de forma a privilegiar a visibilidade das 
+de sua WBS ( Work Breakdown Structure ). Ao término do processo, informações primordiais estarão dispostas de forma a privilegiar a visibilidade das 
 definições de acordo com sua importância.
 
-A figura abaixo apresenta o contexto onde o responsável será a diretoria executiva da organização, essa deverá considerar as metas organizacionais 
-definidas e a partir destas determinar os índices a serem utilizados para a seleção de projetos. Em seguida defini-se o perfil do portfolio, ou seja, a 
-orientação do mesmo. Após essa definição passa-se a etapa onde o encarregado será o gerente de portfolio, tendo esta sido terminada o portfolio retorno 
+A figura abaixo apresenta o contexto em que o responsável será a diretoria executiva da organização, essa deverá considerar as metas organizacionais 
+definidas e a partir destas determinar os índices a serem utilizados para a seleção de projetos. Em seguida, defini-se o perfil do portfolio, ou seja, a 
+orientação do mesmo. Após essa definição, passa-se a etapa onde o encarregado será o gerente de portfolio, tendo esta sido terminada o portfolio retorno 
 a direção executiva que deverá considerar se o mesmo atende os objetivos da organização ou não.
 
 \begin{figure}[H]
@@ -1005,8 +1075,8 @@ a direção executiva que deverá considerar se o mesmo atende os objetivos da o
 \caption{Gráfico do exercício 1.3.}
 \end{figure}
 
-Na segunda etapa o gerente de projetos, podendo ou não trabalhar em conjunto com o gerente de portfolio, deverá selecionar os projetos. Descarta-se 
-aqueles que apresentam-se inteiramente fora dos padrões, considerados inviáveis ou os que não estão em andamento há algum tempo. Ou seja, a partir daqui 
+Na segunda etapa, o gerente de projetos, podendo ou não trabalhar em conjunto com o gerente de portfolio, deverá selecionar os projetos. Descarta-se 
+aqueles que se apresentam inteiramente fora dos padrões, considerados inviáveis ou os que não estão em andamento há algum tempo. Ou seja, a partir daqui 
 trabalha-se apenas com projetos que podem ser apresentados na saída final, fase essa que deverá ser retomada sempre que um dos projetos for encerrado ou 
 novos surgirem. De forma que a saída dessa etapa, lista de projetos da organização, apresente-se sempre consistente. A figura a seguir ilustra tal 
 processo.
@@ -1017,11 +1087,11 @@ processo.
 \caption{Processo definido para o gerente de projetos.}
 \end{figure}
 
-Com as duas primeiras fases encerradas pode-se dar início a terceira etapa, pontuação, neste momento acontece o alinhamento da estratégia organização 
+Com as duas primeiras fases encerradas, pode-se dar início a terceira etapa, pontuação, neste momento acontece o alinhamento da estratégia organização 
 aos projetos. Pois estes deverão ser analisados e pontuados de acordo com a lista de critérios apresentada pela organização. Terminada a pontuação 
-determina-se quais são os principais projetos e a lista de prioridade geral destes. Etapa essa chamada de balanceamento, onde todos são dispostos de 
+determina-se quais são os principais projetos e a lista de prioridade geral destes. Etapa essa chamada de balanceamento, na qual todos são dispostos de 
 forma a atender o critério principal do portfolio. Sendo a saída aqui as informações referentes a quais projetos devem estar em execução, quais devem 
-receber maior atenção, e assim por diante, de acordo com o que se espera do portfolio.
+receber maior atenção e assim por diante, de acordo com o que se espera do portfolio.
 
 Na etapa final, apresenta-se a WBS supracitada, sendo possível observar o estado de cada projeto e as informações inerentes a este. Dentre as informações
 pode-se citar: status, recursos, riscos, demanda, maturidade, e tantos outros quanto se desejar. Tais informações devem ser apresentadas ao alto escalão 
@@ -1036,40 +1106,35 @@ observar as informações como um todo, sem que um ou outro critério possua mai
 
 A figura acima ilustra as etapas relativas as decisões inerentes ao portfolio em si, sendo finalizada com este sendo apresentado e aceito pela direção 
 executiva da organização, assim o mesmo passa a ser o regente das etapas de desenvolvimento, assim como deverá ser utilizado para o controle e 
-apresentação junto a membros internos e externos interessados nas formas de gestão da organização. Pela forma como este é apresentação, uma árvore de 
+apresentação junto a membros internos e externos interessados nas formas de gestão da organização. Pela forma como este é apresentado, uma árvore de 
 projetos contendo informações pertinentes, a organização passa a ter maior transparência e visibilidade de sua carteira de trabalho.
 
 \chapter{Conclusão}
+Para a elaboração deste trabalho foram feitos estudos envolvendo as grandes áreas de gestão de TI. Pode-se observar que este campo possui diversas tecnologias
+ainda não muito difundida que oferecem grande ganho para as organizações e maior controle sobre os processos existentes.
 
-\begin{thebibliography}{99}
-  \bibitem{archer}{ARCHER, N.P.; GHASEMZADEH, F. An integrated framework for project portfolio selection. International Journal of Project Management. v.17, n.4, p.207-216, 1999.}
-  \bibitem{rodolfo}{BARROS, Rodolfo Miranda de}
-  \bibitem{atila}{BELLOQUIM, Atila, Arquitetura Corporativa e Gestão de Portfolio de Projetos, Acessado via: http://www.gnosisbr.com.br/arquitetura-corporativa-e-gestao-de-portfolio-de-projetos.html, último acesso Março 2011}
-  \bibitem{catelli}{CATELLI, Armando. Controladoria - Uma abordagem da Gestão Econômica - GECON. São Paulo: Atlas, 1999.}
-  \bibitem{cooper}{COOPER, R. G., EDGETT, S. J. and KLEINSCHMIDT, E. J., Portfólio Management for New Products, 2dn edn,Perseus Publishing, NY, 2001}
-  \bibitem{cooper2}{COOPER, R. G., Edgett, S. J. and Kleinschmidt, E. J., Project Portfolio Management in New Product Development: Results of a Industry Practices Study, Product Development Institute, ON, Canadá, 2001.}
-  \bibitem{crawford}{CRAWFORD, J. K. The Strategic Project Office: a guide to improving organizational performance. New York: Marcel Dekker, 2002.}
-  \bibitem{dinsmore}{DINSMORE, Paul Campbell. Transformando Estratégias Empresariais em Resultados Através da Gerência por Projeto. Rio de Janeiro: Qualitymark Ed.,1999. 284p.}
-  \bibitem{artigo}{Gestão de Portfólio: o desafio do alinhamento estratégico}
-  \bibitem{johnson}{JOHNSON, G., Scholes, K., Exploring Corporate Strategy: Text and Cases, Prentice Hall, Hertfordshire, UK.}
-  \bibitem{kaplan}{KAPLAN, Robert S., NORTON, David P., Organização Orientada para Estratégia: Como as Empresas que Adotaram o Balanced Scorecard Prosperam no Novo Ambiente de Negócios. Rio de Janeiro, Campos, 2000.}
-  \bibitem{levine}{LEVINE, H.A. Project Portfolio Management: A practical guide to selecting projects, managing portfolios, and maximizing benefits. 1. ed. New york: John Wiley \& Sons, 2005. 560p}
-  \bibitem{martino1}{MARTINO, J. Apostila do curso ministrado no IPT – Instituto de Pesquisas Tecnológicas do Estado de São Paulo, 1993a.}
-  \bibitem{martino2}{MARTINO, J. Tecnological forescasting for decision making. 3 ed. New York, Mc Graw-Hill, 1993b.}
-  \bibitem{mcfarlan}{McFARLAN, W. E. Portfolio approach to information systems. Harvard Business Review, v. 59, n. 5, p. 142-150, Sep./Oct. 1981.}
-  \bibitem{ricardo}{MOREIRA, Ricardo, Governança de TI: Um comparativo entre Cobit e ITIL}
-  \bibitem{mps}{MPS.BR: Melhoria do Processo de Software Brasileiro – Guia de Implementação – Parte 2: Fundamentação para Implementação do Nível F do MR-MPS }
-  \bibitem{sppm} {Standard of Portfolio Management}
-  \bibitem{pmbok}{PMBOK - PMI (Project Management Institute), "Project Management Body of Knowledge", PMI, 2000 / 2008.}
-  \bibitem{porter1}{PORTER, M. E. How Competitive forces shape strategy. Harvard Business Review, p. 137-145, Nov./Dec., 1979.}
-  \bibitem{porter2}{PORTER, M. E. What is strategy? Harvard Business Review, p. 61-78, Nov./Dec. 1996.}
-  \bibitem{prahalad}{PRAHALAD, C.K. A Competência Essencial. HSM Management, p.6-11, Mar-Abr 1997.}
-  \bibitem{prahalad2}{PRAHALAD, C.K. Em Busca do Novo. HSM Management, p.6-12,Mar-Abr 1998.}
-  \bibitem{rabechini}{RABECHINI JR, Roque; MAXIMIANO, Antonio C.A.;; Martins, Vergilio A.. A adoção de gerenciamento de portfolio como uma alternativa gerencial: o caso de uma empresa prestadora de serviço de interconexão eletrônica. Revista Produção, v. 15, n. 3, p. 416-433, 2005.}
-  \bibitem{rockart}{ROCKART, J. F. Chief Executives define their own data needs. Harvard Business Review, v. 57, n. 2, p. 81-92, Mar./Apr. 1979.}
-  \bibitem{sandra}{SANTOS, Sandra Sergi, Gestão de TI através de Portfólios}
-  \bibitem{sanvicente}{SANVICENTE, Antonio Z., SANTOS, Celso da Costa.. Orçamento na Administração de Empresas: planejamento e controle. São Paulo: Atlas, 2000.}
-  \bibitem{clark}{WHEELWRIGHT, S. C.; CLARK, K. B. Managing new product and process development. New York: Free Press, 1993.}
-\end{thebibliography}
+Ao apresentar os modelos, benefícios e desafios da gestão de portfolio, conclui-se que o maior desafio aqui apresentado é modificar a cultura organizacional 
+existente e fazer com  que as organizações se proponham a utilizar ferramentas e metodologias que propiciem as melhorias almejadas e ainda pouco difundidas.
+
+Sendo a gestão de portfolio uma destas metodologias. Para que seja possível alcançar esta mudança, faz-se necessário um estudo da metodologia e suas 
+ferramentas, assim como o elaborado neste trabalho.
+
+Os conceitos aqui apresentados determinam que se faz necessária, para a implementação da Gestão de Portfolio de Projetos, a preocupação com a Estratégia 
+Organizacional, como fator primordial para uma boa gestão. 
+
+Os benefícios e desafios da gestão de portfolio em si, fazendo assim com que seja possível analisar os recursos que serão necessários dispender para 
+implementação da metodologia em questão.
+
+Com a proposta de modelo apresentada pretende-se aprofundar os estudos desta área e criar ambientes de teste para verificar a veracidade dos conceitos 
+relativos a metodologia em questão. 
+
+Este modelo, que ainda pode ser melhorado, visa atender a organizações específicas, fazendo assim com que este possua definições menos genéricas do que 
+outros modelos encontrados na literatura, já que estes definem um cenário de maior abrangência.
+
+Dessa forma, conclui-se que a Gestão de Portfolio de Projetos é uma metodologia com enorme valor agregado para as organizações. Sendo assim o estudo dessa
+mostra-se bastante atual e interessante. O que cria a motivação de continuar este trabalho em outros estudos em oportunidades futuras.
+
+\bibliographystyle{abnt-alf}
+\bibliography{bibliografia/refbi} 
 
 \end{document}

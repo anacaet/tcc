@@ -1,0 +1,61 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.53 }
+
+\bibitem[Archer e Ghasemzadeh 1999]{ARCHER1999}
+\abntrefinfo{Archer e Ghasemzadeh}{ARCHER; GHASEMZADEH}{1999}
+{ARCHER, N.; GHASEMZADEH, F. An integrated framework for project portfolio
+  selection. In:  . [S.l.]: International Journal of Project Management, 1999.
+  v.~17, p. 207--216.}
+
+\bibitem[Catelli 1999]{CATELLI1999}
+\abntrefinfo{Catelli}{CATELLI}{1999}
+{CATELLI, A. \emph{Controladoria - Uma abordagem da Gestão Econômica -
+  GECON}. 2. ed. São Paulo, SP: Atlas, 1999.}
+
+\bibitem[COOPER, EDGETT e KLEINSCHMIDT 2001]{COOPER2001}
+\abntrefinfo{COOPER, EDGETT e KLEINSCHMIDT}{COOPER; EDGETT;
+  KLEINSCHMIDT}{2001a}
+{COOPER, R.~G.; EDGETT, S.~J.; KLEINSCHMIDT, E.~J. \emph{Portfolio Management
+  for New Products}. 2. ed. Nova York, NY: Basic Books, 2001.}
+
+\bibitem[COOPER, EDGETT e KLEINSCHMIDT 2001]{COOPER2001b}
+\abntrefinfo{COOPER, EDGETT e KLEINSCHMIDT}{COOPER; EDGETT;
+  KLEINSCHMIDT}{2001b}
+{COOPER, R.~G.; EDGETT, S.~J.; KLEINSCHMIDT, E.~J. Project portfolio management
+  in new product development: Results of a industry practices study. In:  .
+  Canada: R\&D Management, 2001. v.~31, p. 361--380.}
+
+\bibitem[CRAWFORD 2002]{CRAWFORD2002}
+\abntrefinfo{CRAWFORD}{CRAWFORD}{2002}
+{CRAWFORD, J.~K. \emph{The Strategic Project Office: A Guide to Improving
+  Organizational Performance}. 3. ed. Nova York, NY: Marcel Dekker, 2002.}
+
+\bibitem[Dinsmore 2010]{DINSMORE2010}
+\abntrefinfo{Dinsmore}{DINSMORE}{2010}
+{DINSMORE, P.~C. \emph{Transformando Estratégias Empresariais em Resultados
+  Através da Gerência por Projeto}. 2. ed. Rio de Janeiro, RJ: Qualitymark,
+  2010.}
+
+\bibitem[Johnson, Scholes e Whittington 2009]{JOHNSON2009}
+\abntrefinfo{Johnson, Scholes e Whittington}{JOHNSON; SCHOLES;
+  WHITTINGTON}{2009}
+{JOHNSON, G.; SCHOLES, K.; WHITTINGTON, R. \emph{Exploring Corporate Strategy:
+  Text and Cases}. 8. ed. Hertfordshire, UK: Prentice Hall, 2009.}
+
+\bibitem[KAPLAN e NORTON 2001]{KAPLAN2001}
+\abntrefinfo{KAPLAN e NORTON}{KAPLAN; NORTON}{2001}
+{KAPLAN, R.~S.; NORTON, D.~P. \emph{Organização Orientada para Estratégia:
+  Como as Empresas que Adotaram o Balanced Scorecard Prosperam no Novo Ambiente
+  de Negócios}. 8. ed. Rio de Janeiro, RJ: Campus, 2001.}
+
+\bibitem[Levine 2010]{LEVINE2010}
+\abntrefinfo{Levine}{LEVINE}{2010}
+{LEVINE, H.~A. \emph{Project Portfolio Management: A Practical Guide to
+  Selecting Projects, Managing Portfolios, and Maximizing Benefits}. 1. ed.
+  Nova York, NY: John Wiley & Sons, 2010.}
+
+\end{thebibliography}

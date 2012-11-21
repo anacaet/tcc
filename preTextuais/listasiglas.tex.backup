@@ -1,0 +1,25 @@
+\chapter*{Lista de Siglas e Abreviaturas}
+
+\noindent
+% organize as siglas e abreviaturas em ordem alfabética
+\begin{tabular}{l c p{.85\linewidth}}
+	{\bf AHP}	&-	& Analytic Hierarchy Process \\
+	{\bf CFO}	&-	& Chief Financial Officer \\
+	{\bf CIO}	&-	& Chief Information Officer \\
+	{\bf FCS}	&-	& Fatores Cr\'{i}ticos de sucesso \\
+	{\bf GPP}	&-	& Gest\~{a}o de Portfolio de Projetos \\
+	{\bf NPV}	&-	& Net Present Value \\
+\end{tabular}
+
+TI
+PMI - Project Management Institute
+PMBOOK - A Guide to the Project Managemente Body of Knowledge
+PDCA
+PO - Projeto Oce
+PMO = Project Management Oce
+ROI
+
+VPL
+PP
+RONA
+WBS - Work Breakdown Structure

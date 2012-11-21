@@ -13,8 +13,11 @@
 {\Large \textbf{GEST\~AO DE PORTF\'OLIO DE PROJETOS}} 
 
 \vspace{2.0in}
+
 \begin{flushright}
-\parbox{3.2in}{Trabalho de Conclusao de Curso}
+\parbox{3.2in}{
+Trabalho de Conclus\~{a}o de Curso apresentado ao Curso de Gradua\c{c}\~{a}o em Ci\^{e}ncia da Computa\c{c}~{a}o
+da Universidade Estadual de Londrina, como requisito parcial a obten\c{c}\~ao do grau de Bacharel.}
 \end{flushright}
  
 \vspace{0.5in}

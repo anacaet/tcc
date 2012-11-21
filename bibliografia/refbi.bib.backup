@@ -1,0 +1,900 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Base Bibliografica
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{CACERES2001,
+	author={Edson Norberto C\'aceres and Henrique Mongelli and Siang Wun Song},
+	title={Algoritmos Paralelos usando CGM/PVM/MPI: Uma Introdu\c{c}\~ao},
+	journal={Anais do XXI Congresso da Sociedade Brasileira de Computa\c{c}\~ao},
+	volume={2},
+	pages={219-278},
+	year={2001}
+}
+
+@article{PASIN2003,
+	author={Marcelo Pasin and Diego Lu\'is Kreutz},
+	title={Arquitetura e Administra\c{c}\~ao de Aglomerados},
+	journal={$3^a$ Escola Regional de Alto Desempenho ERAD 2003},
+	pages={3-34},
+	year={2003}
+}
+
+@book{DEROSE2003,
+	author={C\'esar A. F. de Rose and Philippe O. A. Navaux},
+	title={Arquiteturas Paralelas},
+	publisher={Editora Sagra Luzzatto},
+	address={Porto Alegre, RS},
+	edition={1},
+	year={2003}
+}
+
+@book{GRAMA2003,
+	author={Ananth Grama and Anshul Gupta and George Karypis and Vipin Kumar},
+	title={Introduction to Parallel Computing},
+	publisher={Pearson Education Limited},
+	year={2003}
+}
+
+@article{BARCELLOS2003,
+	author={Marinho Pilla Barcellos and Luciano Paschoal Gaspary},
+	title={Tecnologias de Rede para Processamento de Alto Desempenho},
+	journal={$3^a$ Escola Regional de Alto Desempenho ERAD 2003},
+	volume={1},
+	pages={67-102},
+	year={2003}
+}
+
+@book{PACHECO1997,
+	author={Peter S. Pacheco},
+	title={Parallel Programming with MPI},
+	publisher={Morgan Kaufmann Publishers, Inc},
+	address={San Francisco, CA},
+	year={1997}
+}
+
+@book{STALLINGS2002,
+	author={Willian Stallings},
+	title={Arquitetura e Organiza\c{c}\~ao de Computadores},
+	publisher={Prentice Hall},
+	edition={5},
+	address={S\~ao Paulo, SP},
+	year={2002}
+}
+
+@article{COSTA2002,
+	author={Celso Maciel da Costa and Denise Stringhini and Gerson Geraldo Homrich Cavalheiro},
+	title={Programa\c{c}\~ao Concorrente: Threads, MPI e PVM},
+	journal={$2^a$ Escola Regional de Alto Desempenho ERAD 2002},
+	volume={1},
+	pages={31-65},
+	year={2002}
+}
+
+@Misc{MERKEY2008,
+	author={Phil Merkey},
+	title={Beowulf History},
+	year={2004},
+	type={P\'agina na Internet},
+	url={http://www.beowulf.org/overview/history.html}
+}
+
+@article{GONCALVES2006,
+	author={Ronaldo Augusto de Lara GONCALVES and Jo\~ao Angelo Martini and Antonio da Silva Martins Jr.},
+	title={Computa\c{c}\~ao de Alto Desempenho},
+	journal={XIII Escola Regional de Inform\'atica da SBC - Paran\'a},
+	volume={1},
+	pages={1-51},
+	address={Bandeirantes, PR},
+	year={2006}
+}
+
+@article{STERLING2003,
+	author={T. Sterling},
+	title={Beowulf Breakthroughs - The genesis of Linux clusters in high performance computing},
+	journal={Linux Magazine},
+	year={2003}
+}
+
+@book{FOSTER1994,
+	author={Ian T. Foster},
+	title={Designing and Building Parallel Programs: Concepts and Tools for Parallel Software Engineering},
+	publisher={Addison-Wesley Publishing Company, Inc},
+	address={Massachusetts},
+	year={1994}
+}
+
+@Unpublished{CARNEIRO2006,
+	author = {Andr\'e Ramos Carneiro and Carlos Henrique do Valle Guervich},
+	title = {Computa\c{c}\~ao Paralela com Cluster Beowulf: Aplicativos e Benchmarks },
+	address={Petr\'opolis, RJ},
+	year = {2006}
+}
+
+@book{MURDOCCA2000,
+	author={Miles J. Murdocca and Vicent P. Heuring},
+	title={Introdu\c{c}\~ao \`a Arquitetura de Computadores},
+	publisher={Editora Campus},
+	address={Rio de Janeiro},
+	year={2000}
+}
+
+@book{GEIST1994,
+	author={Al Geist and Adam Beguelin and Jack Dongarra and Weicheng Jiang and Robert Manchek and Vaidy Sunderam},
+	title={PVM: Parallel Virtual Machine},
+	publisher={The MIT Press},
+	address={Massachusetts},
+	url={http://www.netlib.org/pvm3/book/pvm-book.ps},
+	year={1994}
+}
+
+@TechReport{RFC1094,
+	author = {Sun Microsystems},
+	title = {NFS: Network File System Protocol specification},
+	year = {1989},
+	url={http://www.dspace.cam.ac.uk/bitstream/1810/14142/1/rfc1094.txt}
+}
+
+@book{COMER2006,
+	author={Douglas E. Comer},
+	title={Interliga\c{c}\~ao de Redes com TCP/IP},
+	publisher={Editora Campus},
+	address={Rio de Janeiro},
+	year={2006}
+}
+@article{DEROSE2002,
+	author={C\'esar A. F. de Rose and Philippe O. A. Navaux},
+	title={Fundamentos de Processamento de Alto Desempenho},
+	journal={$2^a$ Escola Regional de Alto Desempenho ERAD 2002},
+	volume={1},
+	pages={3-29},
+	address={S\~ao Leopoldo, RS},
+	year={2002}
+}
+
+@book{RANGEL1999,
+	author={Ricardo Pedreira Rangel},
+	title={Passado e Futuro da Era de Informa\c{c}\~ao},
+	publisher={Editora Nova Fronteira S.A.},
+	address={Rio de Janeiro},
+	year={1999}
+}
+
+@MastersThesis{BENICIO2001,
+	author = {Paulo Ben\'icio Melo de Sousa},
+	title = {WVM: Uma Ferramenta para Processamento Distribu\'ido de Alto Desempenho na Web},
+	school = {Universidade Federal do Cear\'a},
+	year = {2001}
+}
+
+@article{MOORE1965,
+	author={Gordon E. Moore},
+	title={Cramming more components onto integrated circuits},
+	journal={Electronics},
+	volume={38},
+	number={8},
+	year={1965}
+}
+
+@PhdThesis{CARRIJO2001,
+	author={Elias Calixto Carrijo},
+	title={Processamento Paralelo Aplicado em An\'alise n\~ao Linear de Cascas},
+	school={Universidade de S\~ao Paulo},
+	year={2001},
+	type={Tese de doutorado},
+}
+
+@article{GEISt1996,
+	author={G. A. Geist and J. A. Kohl and P. M. Papadopoulos},
+	title={PVM and MPI: a Comparison of Features},
+	year={1996}
+}
+
+@TechReport{MPIFORUM2003,
+	author={Message Passing Interface Forum},
+	title={MPI-2: Extensions to the Message-Passing Interface},
+	year={2003},
+	url={http://www.mpi-forum.org/docs/mpi$2$-report.pdf}
+}
+
+@MastersThesis{CAMARGO1992,
+	author={Maria Ang\'elica Oliveira Camargo and Dalc\'idio Moraes Claudio and Phillippe O. Navaux},
+	title={An\'alise da Adequa\c{c}\~ao dos Recursos de Paralelismo em Algoritmos para Resolu\c{c}\~ao de Equa\c{c}\~oes n\~ao Lineares},
+	school={Universidade Federal do Rio Grande do Sul},
+	type={Relat\'orio de Pesquisa},
+	year={1992}	
+}
+
+@book{TOLEDO1997,
+	author={Elson M. Toledo and Renato S. Silva},
+	title={Introdu\c{c}\~ao \`a Computa\c{c}\~ao Paralela},
+	year={1997}
+}
+
+@MastersThesis{SILLA2008est,
+	author = {Paulo Roberto Silla},
+	title = {Computa\c{c}\~ao Paralela: Constru\c{c}\~ao e Utiliza\c{c}\~ao de um Cluster},
+	school={Universidade Estadual de Londrina},
+	type={Relat\'orio de Pesquisa},
+	year = {2008}
+}
+
+@MastersThesis{SILLA2008tcc,
+	author = {Paulo Roberto Silla},
+	title = {Computa\c{c}\~ao Paralela: ambientes e algoritmos},
+	school={Universidade Estadual de Londrina},
+	type={Trabalho de Conclus\~ao de Curso},
+	year = {2008}
+}
+@article{BRUNETTO2008,
+	author={Maria Ang\'elica de Oliveira Camargo-Brunetto and Claiton Oliveira and Andr\'e Ricardo Gon{\c c}alves},
+	title={Artificial Neural Networks to identify Chronic Obstructive Pulmonary Disease}
+}
+
+@book{BRAGA2000,
+	author={Ant\^onio de P\'adua Braga and Andr\'e Carlos Ponce de Leon Ferreira Carvalho and Teresa Bernarda Ludermir},
+	title={Redes Neurais Artificiais: Teoria e Aplica\c{c}\~oes},
+	publisher={LTC Editora},
+	address={Rio de Janeiro, RJ},
+	edition={1},
+	year={2000}
+}
+@InCollection{BRUGGEMAN2007,
+	author={Frank J. Bruggeman and Jorrit J. Hornberg and Fred C. Boogerd and Hans V. Westerhoff},
+	title={Introdution to systems biology},
+	year={2007},
+	pages={1-20},
+	editor = {Sacha Baginsky and Alisdair R. Fernie},
+	volume = {EXS 97},
+	publisher = {Birkha\"user Verlag},
+	address = {Switzerland}
+}
+
+@InCollection{FOYER2007,
+	author={Christine H. Foyer and Guy Kiddle and Paul Verrier},
+	title={Transcriptional profiling approaches to understanding how plants regulate growth and defence: A case study illustrated by analysis of the role of vitamin C},
+	booktitle = {Plant Systems Biology},
+	pages = {54-86},
+	publisher = {Birkha\"user Verlag},
+	year = {2007},
+	editor = {Sacha Baginsky and Alisdair R. Fernie},
+	volume = {EXS 97},
+	address = {Switzerland}
+}
+
+@Booklet{PASANEN2003,
+	title = {DNA Microarray Data Analysis},
+	author = {Tomi Pasanen and Janna Saarela and Ilana Saarikko and Teemu Toivanen and Martti Tolvanen and Mauno Vihinen and Garry Wong},
+	address = {Helsinki},
+	month = {05},
+	year = {2003},
+	editor={Jarno Tuimala and M. Minna Laine},
+	publisher={Picaset Oy},
+	url = {http://www.csc.fi/oppaat/siru/}
+}
+
+@Book{CARVALHO2008,
+	author = {Benilton S. Carvalho},
+	title = {An\'alise de Microarranjos Empregando Ferramentas do Projeto Bioconductor},
+	publisher = {ABE - Associa\c{c}\~ao Brasileira de Estat\'istica},
+	year = {2008},
+	address = {S\~ao Paulo - SP},
+	url = {www.redeabe.org.br}
+}
+@article{MENDES2009,
+	author = {N. D. Mendes and A. T. Freitas and M.-F. Sagot},
+	title = {Current tools for the identification of miRNA genes and their targets},
+	year = {2009},
+	journal = {Nucleic Acids Research},
+	volume = {37},
+	pages = {2419-2433},
+	doi = {10.1093/nar/gkp145}
+}
+
+@article{ZHANG2005,
+	author = {Baohong Zhang and Xiaoping Pan and George P. Cobb and Todd A. Anderson},
+	title = {Plant microRNA: A small regulatory molecule with big impact},
+	year = {2005},
+	journal = {Developmental Biology},
+	volume = {289},
+	pages = {3-16},
+	doi = {10.1016/j.ydbio.2005.10.036}
+}
+
+@article{ZHANG2006,
+	author = {B. H. Zhang and X. P. Pan and S. B. Cox and G. P. Cobb and T. A. Anderson},
+	title = {Evidence that miRNAs are different from other RNAs},
+	year = {2006},
+	journal = {Cellular and Molecular Life Sciences},
+	volume={63},
+	pages={246--254},
+	doi={10.1007/s00018-005-5467-7}
+}
+
+@article{YOUSEF2009,
+	author = {Malik Yousef and Louise Showe and Michael Showe},
+	title = {A study of microRNAs in silico and in vivo: bioinformatics approaches to microRNA discovery and target identification},
+	year = {2009},
+	journal = {FEBS Journal},
+	volume = {276},
+	pages = {2150-2156},
+	doi = {10.1111/j.1742-4658.2009.06933.x}
+}
+
+@article{GHOSH2007,
+	author ={Zhumur Ghosh and Jayprokas Chakrabarti and Bibekanand Mallick},
+	title = {miRNomics - The Bioinformatics of microRNA genes},
+	year = {2007},
+	journal = {Biochemical and Biophysical Research Communications},
+	volume = {363},
+	pages = {6-11},
+	doi = {10.1016/j.bbrc.2007.08.030}
+}
+
+@article{SUNKAR2008,
+	author = {Ramanjulu Sunkar and Guru Jagadeeswaran},
+	title = {In silico identification of conserved microRNA in large number of diverse plant species},
+	year = {2008},
+	journal = {BMC Plant Biology},
+	volume = {8:37},
+	doi = {10.1186/1471-2229-8-37}
+}
+
+@article{MEYERS2006,
+	author = {Blake C. Meyers and Fr\'ed\'eric F. Souret and Cheng Lu and Pamela J. Green},
+	title = {Sweating the small stuff: microRNA discovery in plants},
+	year = {2006},
+	journal = {Current Opinion on Biotechnology},
+	volume = {17},
+	pages = {139-146},
+	doi = {10.1016/j.copbio.2006.01.008}
+}
+
+@article{SUBR2008,
+	author = {Senthil Subramanian and Yan Fu and Ramanjulu Sunkar and W Brad Barbazuk and Jian-Kang Zhu and Oliver Yu},
+	title = {Novel and nodulation-regulated microRNA in soybean roots},
+	year = {2008},
+	journal = {BMC Genomics},
+	volume = {9},
+	doi = {10.1186/1471-2164-9-160}
+}
+
+@article{CISSELL2009,
+	author={Kyle A. Cissell and Sapna K. Deo},
+	title={Trends on microRNA detection},
+	year={2009},
+	journal={Bioanal Chem},
+	volume={Trends},
+	doi={10.1007/s00216-009-2744-6}
+}
+
+@article{CHEN2005,
+	author={Xuemei Chen},
+	title={microRNA biogenesis and function in plants},
+	year={2005},
+	journal={FEBS Letters},
+	volume={579},
+	pages={5923-5931},
+	doi={10.1016/j.febslet.2005.07.071}
+}
+
+@article{JONES-RHOADES2004,
+        author="Jones-Rhoades, Matthew W. and Bartel, David P.",
+        title="Computational Identification of Plant MicroRNAs and Their Targets, Including a Stress-Induced miRNA",
+        mounth="Junho",
+        year="2004",
+        journal="Molecular Cell",
+        volume="14",
+        pages="787--799",
+        doi="10.1016/j.molcel.2004.05.027",
+}
+
+@article{JONES-RHOADES2006,
+        author={Matthew W. Jones-Rhoades and David P. Bartel and Bonnie Bartel},
+        title={MicroRNAs and Their Regulatory Roles in Plants},
+        year={2006},
+        journal={Annual Review of Plant Biology},
+        volume={57},
+        pages={19-53},
+        doi={10.1146/annurev.arplant.57.032905.105218}
+}
+
+@article{BENTWICH2005,
+	author={Isaac Bentwich},
+	title={Prediction and validation of microRNAs and their targets},
+	year={2005},
+	journal={FEBS Letters},
+	volume={579},
+	pages={5904-5910},
+	doi={10.1016/j.febslet.2005.09.040}
+}
+
+@article{HOU2008,
+	author = {YY Hou and XM Ying and WJ Li},
+	title = {Computational approaches to microRNA discovery},
+	year = {2008},
+	journal = {Yi Chuan}
+}
+
+@Book{ZAHA1996,
+ title = {Biologia Molecular Básica},
+ publisher = {Mercado Aberto},
+ year = {1996},
+ author = {Arnaldo Zaha and Augusto Schrank and Henrique Bunselmeyer Ferreira and Irene Silveira Schrank and Jaqueline Josi Samá Rodrigues and Luciana Pereira Regner and Luciane Maria Pereira Passaglia and Maria Lucia Rosa Rossetti and Rochele Mallet Raupp and Sérgio Ceroni da Silva and Vera Lucia Valente Gaiesky},
+ series = {Ciência XXI},
+ address = {Porto Alegre}
+}
+
+@book{GRAUR2000,
+  title = {Fundamentals of Molecular Evolution},
+  publisher = {Sinauer Associates},
+  year = {2000},
+  author = {Dan Graur and Wen-Hsiung Li},
+  address = {Sunderland}
+}
+
+@book{BROWN1999,
+  title = {Genomes},
+  publisher = {Bios Scientific Publishers},
+  year = {1999},
+  author = {T. A. Brown},
+  address = {Oxford, UK}
+}
+
+@book{GIBAS2001,
+    title={Desenvolvendo Bioinformática},
+    subtitle={Ferramentas de {\it software} para aplicações em biologia},
+    author={Cynthia Gibas and Per Jambeck},
+    year={2001},
+    publisher={Campus},
+    address={Rio de Janeiro}
+}
+
+@book{HIGGS2005,
+    title={Bioinformatics and Molecular Evolution},
+    author={Paul G. Higgs and Teresa K. Attwood},
+    year={2005},
+    publisher={Blackwell Science},
+    address={Malden}
+}
+
+@InCollection{DURET2000,
+    author = {L. Duret and S. Abdeddaim},
+    title = {Multiple alignments for structural, functional, or phylogenetic analysis of homologous sequences},
+    booktitle = {Bioinformatics: Sequence, structure and data banks},
+    publisher = {Oxford University Press},
+    year = {2000},
+    editor = {Des Higgins and Willie Taylor},
+    address = {New York}
+}
+
+@article{SEWER2005,
+	author = {Alain Sewer and Nicodème Paul and Pablo Landgraf and Alexei Aravin and Sébastien Pfeffer and Michael J. Brownstein and Thomas Tuschl and Erik van Nimwegen and Mihaela Zavolan},
+	title = {Identification of clustered microRNAs using an ab initio prediction method},
+	year = {2005},
+	journal = {BMC Bioinformatics},
+	volume = {},
+	pages = {},
+	doi = {10.1186/1471-2105-6-267}
+}
+
+@article{ZHANG2008,
+    author = {Baohong Zhang and Xiaoping Pan and Edmund J. Stellwag},
+    title = {Identification of soybean microRNAs and their targets},
+    year = {2008},
+    journal = {Planta},
+    volume = {229},
+    pages = {161--182},
+    doi = {10.1007/s00425-008-0818-x}
+}
+
+@TechReport{CONAB2010,
+    author = "Conab",
+    title = "Acompanhamento da safra brasileira: grãos, oitavo levantamento",
+    institution = "Companhia Nacional de Abastecimento",
+    year = "2010",
+    address = "Brasília",
+    month = "Maio",
+    url = "http://www.conab.gov.br/conabweb/download/safra/8graos\_6.5.10.pdf",
+}
+
+@Article{PMRD2010,
+    author = "Zhang, Zhenhai and Yu, Jingyin and Li, Daofeng and Zhang, Zuyong and Liu, Fengxia and Zhou, Xin and Wang, Tao and Ling, Yi and Su, Zhen",
+    title = "PMRD: plant microRNA database",
+    journal = "Nucl. Acids Res.",
+    month = "Janeiro",
+    year = "2010",
+    volume = "38",
+    number = "suppl\_1",
+    pages = "D806-813",
+    doi = "10.1093/nar/gkp818",
+}
+
+@Article{YANG2010,
+   author = "Yang, Jian-Hua and Shao, Peng and Zhou, Hui and Chen, Yue-Qin and Qu, Liang-Hu",
+   title = "deepBase: a database for deeply annotating and mining deep sequencing data",
+   journal = "Nucl. Acids Res.",
+   month = "Janeiro",
+   number = "suppl\_1",
+   year = "2010",
+   volume = "38",
+   pages = "D123-130",
+   doi = "10.1093/nar/gkp943",
+}
+
+@Article{SCHMUTZ2010,
+   author = "Schmutz, Jeremy and Cannon, Steven B. and Schlueter, Jessica and Ma, Jianxin and Mitros, Therese and Nelson, William and Hyten, David L. and Song, Qijian and Thelen, Jay J. and Cheng, Jianlin and Xu, Dong and Hellsten, Uffe and May, Gregory D. and Yu, Yeisoo and Sakurai, Tetsuya and Umezawa, Taishi and Bhattacharyya, Madan K. and Sandhu, Devinder and Valliyodan, Babu and Lindquist, Erika and Peto, Myron and Grant, David and Shu, Shengqiang and Goodstein, David and Barry, Kerrie and Futrell-Griggs, Montona and Abernathy, Brian and Du, Jianchang and Tian, Zhixi and Zhu, Liucun and Gill, Navdeep and Joshi, Trupti and  Libault, Marc and Sethuraman, Anand and Zhang, Xue-Cheng and Shinozaki, Kazuo and Nguyen, Henry T. and Wing, Rod A. and Cregan, Perry and Specht, James and Grimwood, Jane and Rokhsar, Dan and Stacey, Gary and Shoemaker, Randy C. and Jackson, Scott A.",
+   title = "Genome sequence of the palaeopolyploid soybean", 
+   journal = "Nature",
+   month = "Janeiro",
+   number = "",
+   year =   "2010",
+   volume =   "463",
+   pages =   "178-183",
+   doi = "10.1038/nature08670"
+}
+
+@Article{NG2007a,
+   author = "Loong, Stanley NG Kwang and Mishra, Santosh K.",
+   title = "De novo SVM classification of precursor microRNAs from genomic pseudo hairpins using global and intrinsic folding measures", 
+   journal = "Structural Bioinformatics",
+   month = "Janeiro",
+   number = "11",
+   year = "2007",
+   volume = "23",
+   pages = "1321-1330",
+}
+
+@Article{NG2007b,
+   author = "Loong, Stanley NG Kwang and Mishra, Santosh K.",
+   title =  "Unique folding of precursor microRNAs: Quantitative evidence and implications for de novo identification", 
+   journal =   "RNA",
+   month = "",
+   number = "",
+   year = "2006",
+   volume = "13",
+   pages = "170-187",
+}
+
+@Article{NG2007c,
+   author = "Loong, Stanley NG Kwang and Mishra, Santosh K.",
+   title = "Unique folding of precursor microRNAs: Quantitative evidence and implications for de novo identification", 
+   journal = "RNA Supplementary materials",
+   month = "",
+   number = "",
+   year = "2006",
+   volume = "13",
+   pages = "",
+}
+
+@Article{HOFACKER1994,
+   author = "Hofacker, Ivo L. and Fontana, Walter and Stadler, Peter F. and Bonhoeffer, L. Sebastian and Tacker, Manfred and Peter Schuster",
+   title = "Fast Folding and Comparison of RNA Secondary Structures",
+   journal = "Monatshefte f\'{u}r Chemie",
+   mounth = "",
+   number = "",
+   year = "1994",
+   volume = "125",
+   pages = "167-188",
+}
+
+@Article{REEDERA2006,
+   author = "Reedera, Jens and Hochsmanna, Matthias and Rehmsmeierb, Marc and Vossc, Bjorn and Giegerich, Robert",
+   title = "Beyond Mfold: Recent advances in RNA bioinformatics",
+   journal = "Journal of Biotechnology",
+   month = "Junho",
+   year = "2006",
+   volume = "124",
+   pages = "41-55",
+   number = "1",
+   doi = "10.1016/j.jbiotec.2006.01.034",
+}
+
+@Article{SCHULTES1999,
+   author = "Schultes, Erik A. and Hraber, Peter T. and LaBean, Thomas H.",
+   title = "Estimating the Contributions of Selection and Self-Organization in RNA Secondary Structure",
+   journal = "Journal of Molecular Evolution",
+   month = "Julho",
+   number = "1",
+   pages = "76-83",
+   year = "1999",
+   volume = "49",
+   doi = "10.1007/PL00006536",
+}
+
+@Article{FREYHULT2005,
+   author = "Freyhult, Eva and Gardner, Paul and Moulton, Vincent",
+   title = "A comparison of RNA folding measures",
+   journal = "BMC Bioinformatics",
+   month = "Outubro",
+   number = "1",
+   pages = "241+",
+   year = "2005",
+   volume = "6",
+   doi = "10.1186/1471-2105-6-241",
+}
+
+@Article{GRUBER2008,
+   author = "Gruber, Andreas and Bernhart, Stephan and Hofacker, Ivo and Washietl, Stefan",
+   title = "Strategies for measuring evolutionary conservation of RNA secondary structures",
+   journal = "BMC Bioinformatics",
+   month = "Fevereiro",
+   year = "2008",
+   volume = "9",
+   pages = "122+",
+   number = "1",
+   doi = "10.1186/1471-2105-9-122",
+}
+
+@Article{GAN2004,
+   author = "Gan, Hin Hark and Fera, Daniela and Zorn, Julie and Shiffeldrim1, Nahum and Tang, Michael and Laserson, Uri and Kim, Namhee and Schlick, Tamar",
+   title = "RAG: RNA-As-Graphs database—concepts, analysis, and features",
+   journal = "Bioinformatics",
+   month = "Fevereiro",
+   number = "8",
+   pages = "1285–1291",
+   year = "2004",
+   volume = "20",
+   doi = "10.1093/bioinformatics/bth084",
+}
+
+@InCollection{NOBLE2004,
+   author = "Noble, William S.",
+   title = "Support vector machine applications in computational biology",
+   booktitle = "Kernel methods in computational biology",
+   chapter = "3",
+   publisher = "MIT Press",
+   year = "2004",
+   editor = "Scholkopf, Bernhard and Tsuda, Koji and Vert, Jean-Philippe",
+   address = "Cambridge, MA",
+}
+
+@Book{HAYKIN1999,
+   author = "Haykin, Simon", 
+   title = "Redes Neurais: princ\'ipios e pr\'aticas", 
+   publisher = "Bookman",
+   address = "Porto Alegre",
+   year = "1999",
+}
+
+@InCollection{PLATT1999,
+   author = "Platt, John C.",
+   title = "Fast Training of Support Vector Machines using Sequential Minimal Optimization",
+   booktitle = "Advances in Kernel Methods - Support Vector Learning",
+   pages = "41-65",
+   publisher = "MIT Press",
+   year = "1999",
+   editor = "Scholkopf, Bernard and Burges, Christopher J. C. and Smola, Alexander J.",
+   address = "Cambridge, MA",
+}
+
+@Article{NAM2005,
+   author = "Nam, Jin-Wu and Shin, Ki-Roo and Han, Jinju and Lee, Yoontae and Kim, V. Narry and Zhang, Byoung-Tak",
+   title = "Human microRNA prediction through a probabilistic co-learning model of sequence and structure",
+   journal = "Nucl. Acids Res.",
+   month = "Junho",
+   year = "2005",
+   volume = "33",
+   pages = "3570-3581",
+   number = "11",
+   doi = "10.1093/nar/gki668",
+}
+
+@Article{XUE2005,
+   author = "Xue, Chenghai and Li, Fei and He, Tao and Liu, Guo-Ping and Li, Yanda and Zhang, Xuegong",
+   title = "Classification of real and pseudo microRNA precursors using local structure-sequence features and support vector machine",
+   journal = "Bioinformatics",
+   month = "Dezembro",
+   year = "2005",
+   volume = "6",
+   pages = "",
+   number = "310",
+   doi = "10.1186/1471-2105-6-310",
+}
+
+@Article{YOUSEF2006,
+   author = "Yousef, Malik and Nebozhyn, Michael and Shatkay, Hagit and Kanterakis, Stathis and Showe, Louise C. and Showe, Michael K.",
+   title = "Combining multi-species genomic data for microRNA identification using Naive Bayes classifier",
+   journal = "Bioinformatics",
+   mounth = "Março",
+   number = "11",
+   year = "2006",
+   volume = "22",
+   pages = "1325-1334",
+   doi = "10.1093/bioinformatics/btl094",
+}
+
+@Article{HERTEL2006,
+   author = "Hertel, Jana and Stadler, Peter F.",
+   title = "Hairpins in a Haystack: recognizing microRNA precursors in comparative genomics data",
+   journal = "Bioinformatics",
+   mounth = "",
+   number = "14",
+   year = "2006",
+   volume = "22",
+   pages = "e197-e202",
+   doi = "10.1093/bioinformatics/btl257",
+}
+
+@Misc{GUIDE_SVM,
+   author = {Hsu, Chih-Wei and Chang, Chih-Chung and Lin, Chih-Jen},
+   title = {A Practical Guide to Support Vector Classification},
+   month = {Abril},
+   year = {2010},
+}
+
+@Article{MILLAR2005,
+   author = "Millar, Anthony A. and Whaterhouse, Peter M.",
+   title = "Plant and animal microRNAs: similarities and differences",
+   journal = "Funct Integr Genomics",
+   mounth = "",
+   number = "",
+   year = "2005",
+   volume = "5",
+   pages = "129-35",
+}
+
+@Article{BROWN2008,
+   author = "Brown, John W. S. and Marshall, David F. and Echeverria, Manuel",
+   title = "Intronic noncoding RNAs and splicing",
+   journal = "Trends in Plant Science",
+   month = "June",
+   year = "2008",
+   volume = "13",
+   pages = "335-342",
+   number = "7",
+   doi = "10.1016/j.tplants.2008.04.010",
+}
+
+@InProceedings{SILLA2010,
+ author = "Silla, P. R. and Camargo-Brunetto, M.A.O and Binneck, Eliseu",
+ title = "Using a Support Vector Machine to Identify pre-miRNAs in soybean {\it Glycine max} introns",
+ booktitle = "Proceedings of the 10th International Conference on Intelligent Systems Design and Applications. ISDA'10.",
+ pages = "7",
+ year = "2010",
+ volume = "In press",
+ address = "Cairo, Egypt",
+ month = "November",
+ publisher = "IEEE",
+}
+
+@article{HAMMING1950,
+ author = "Hamming, Richard W.",
+ title = "Error detecting and error correcting codes",
+ journal = "Bell System Technical Journal",
+ year = "1950",
+ volume = "29",
+ number =  "2",
+ pages = "147--160",
+}
+
+@Article{ALTSCHUL1990,
+   author = "Altschul, S.F. and Gish, W. and Miller, W. and Myers, E.W. and Lipman, D.J.",
+   title = "Basic local alignment search tool",
+   journal = "J. Mol. Biol.",
+   month = "",
+   number = "",
+   pages = "403-410",
+   year = "1990",
+   volume = "215",
+}
+
+@Article{ZHAO2010,
+   author = "Zhao, Dongyu and Wang, Yan and Luo, Di and Shi, Xiaohu and Wang, Liupu and Xu, Dong and Yu, Jun and Liang Yanchun",
+   title = "PMirP: A pre-microRNA prediction method based on structure-sequence hybrid features",
+   journal = "Artificial Intelligence in Medicine",
+   mounth = "Junho",
+   year = "2010",
+   number = "2",
+   volume = "49",
+   pages = "127--132",
+   doi = "10.1016/j.artmed.2010.03.004",
+}
+
+@Article{JIANG2007,
+   author = "Jiang, Peng and Wu, Haonan and Wang, Wenkai and Ma, Wei and Sun, Xiao and Lu, Zuhong",
+   title = "MiPred: classification of real and pseudo microRNA precursors using random forest prediction model with combined features",
+   journal = "Nucleic Acids Research",
+   mounth = "Julho",
+   year = "2007",
+   number = "Suppl 2",
+   volume = "35",
+   pages = "W339--W344",
+   doi = "10.1093/nar/gkm368", 
+}
+
+@Article{KADRI2009,
+   author = "Kadri, Sabah and Hinman, Veronica and Benos, Panayiotis",
+   title = "HHMMiR: efficient de novo prediction of mircroRNAs using hierarchical hidden Markov models",
+   journal = "BMC Bioinformatics",
+   mounth = "Janeiro",
+   year = "2009",
+   number = "Suppl 1",
+   volume = "10",
+   pages = "S35+",
+   doi = "10.1186/1471-2105-10-S1-S35", 
+}
+
+@article{BONNET2004,
+   author = "Bonnet, Eric and Wuyts, Jan and Rouz\'{e}, Pierre and Van de Peer, Yves",
+   title = "Detection of 91 potential conserved plant microRNAs in Arabidopsis thaliana and Oryza sativa identifies important target genes",
+   journal = "Proceedings of the National Academy of Sciences of the United States of America",
+   year = "2004",
+   month = "Agosto",
+   number = "31",
+   pages = "11511--11516",
+   volume = "101",
+   doi = "10.1073/pnas.0404025101",
+}
+
+@article{LORENA2007,
+ author = "Lorena, Ana Carolina and Carvalho, André C. P. L. F. de",
+ title = "Uma Introdução às Support Vector Machines",
+ journal = "RITA",
+ year = "2007",
+ volume = "XIV",
+ number =  "2",
+ pages = "44--67",
+}
+
+@Book{COX1977,
+   author = "Cox, D. R. and Miller, H. D.", 
+   title = "Theory of Stochastic Processes", 
+   publisher = "Halsted Press",
+   address = "New York",
+   edition = "1",
+   year = "1977",
+}
+
+@Book{FELLER1968,
+   author = "Feller, W.", 
+   title = "A Introdution to Probability Theory and its Applications", 
+   publisher = "Wiley International",
+   address = "New York",
+   edition = "3",
+   year = "1968",
+}
+
+@Article{BURGES1998,
+   author = "Burges, Christopher",
+   title = "A Tutorial on Support Vector Machines for Pattern Recognition",
+   journal = "Data Mining and Knowledge Discovery",
+   year = "1998",
+   pages = "121--167",
+   number = "2",
+}
+
+@Article{LI2008,
+   author = "Li, Ruiqiang and Li, Yingrui and Kistiansen, Karsten and Wang, Jun ",
+   title = "SOAP: Short Oligonucleotide Alignment Program",
+   journal = "Bioinformatics",
+   year = "2008",
+   pages = "713--714",
+   number = "5",
+   volume = "24",
+}
+
+@Article{PROSDOCIMI2002,
+   author = "Prosdocimi, Francisco and Cerqueira, Gustavo Coutinho and Binneck, Eliseu and Silva, Acácia Fernandes and Reis, Adriana Neves dos and Junqueira, Ana Carolina Martins and Santos, Ana Cecília Feio dos and Nhani Júnior,  Antônio and Wust, Charles I. and Camargo Filho, Fernando and Kessedjian, Jayme Lourenço and Petretski, Jorge H. and Camargo, Luiz Paulo and Ferreira, Ricardo de Godoi Mattos and Lima, Roceli P. and Pereira, Rodrigo Matheus and Jardim, Sílvia and Sampaio, Vanderson de Souza and Folgueras-Flatschart, Áurea V.",
+   title = "Bioinformática: Manual do Usuário",
+   journal = "Biotecnologia Ciência e Desenvolvimento",
+   year = "2003",
+   pages = "12--25",
+   number = "29",
+}
+
+@Article{ALES2008,
+	author = "Vanessa Terezinha Ales",
+	title = "O Algoritmo Sequential Minimal Optimisation para Resolução do Problema de Support Vector Machine: Uma Técnica para Reconhecimento de Padrões",
+	year = "2008",
+	address = "Dissertação (Mestrado) --- Universidade Federal do Paraná, Curitiba",
+}
+
+@TechReport{PLATT1998,
+ author = "Platt ,Jhon C." ,
+ title = "Sequential Minimal Optimization: A Fast Algorithm for Training Support Vector Machines",
+ institution = "Microsoft Research",
+ year = "1998",
+ month = "Abril",
+}

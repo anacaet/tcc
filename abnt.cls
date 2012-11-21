@@ -1,4 +1,4 @@
-%$Id: abnt.cls,v 1.27.2.1 2004/11/02 15:04:29 gweber Exp $
+%$Id: abnt.cls,v 1.18.2.1 2002/12/06 13:54:00 gweber Exp $
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % ABNT.CLS
@@ -93,14 +93,14 @@
 %        - redefined all \section like commands (apply last redefinitions
 %          and font purposes)
 %        - \anexo and \apendice -> apply old \appendix changes and
-%          replaces \@chapter by \@anapchapter.
+%          replaces \@chapter by \@anapchapter. 
 
 
 %    redefining important commands (those that set page marks, getting rid
 %      of explicit \MakeUppercase)
 %        \tableofcontents
 %        \listoffigures
-%        \listoftables
+%        \listoftables 
 %        thebibliography
 %        theindex (now balanced columns) or use \IndiceNaoBalanceado
 %    custumizable caption separator -> temporarely commented (not required)
@@ -132,37 +132,6 @@
 %
 %  List of Changes
 %  ---------------
-% $Log: abnt.cls,v $
-% Revision 1.27.2.1  2004/11/02 15:04:29  gweber
-% resolvido problema com bookmarks e hyperrefs.
-%
-% Revision 1.27  2004/04/01 14:07:46  mvsfrasson
-%
-%
-% Retirado um bug no \@chapter que causa o cabecalho ter o numero do capitulo errado
-%
-% Revision 1.26  2003/10/13 09:40:01  gweber
-% Passa a usar cvs-id.def para gerar informações sobre data e versão.
-%
-% Revision 1.25  2003/09/16 16:49:29  gweber
-% Troca de \bibname por \refname o que equivale a trocar "Referêncas Bibliográficas" por
-% "Referências". Isto atende ao que entendemos esteja implícito na NBR14724-2002.
-%
-% Revision 1.24  2003/08/22 14:45:18  gweber
-% Resolvido bug 178 que fazia o texto de \part aparecer duas vezes.
-%
-% Revision 1.23  2003/06/30 14:10:47  gweber
-% Links criados com hyperref para apêndices e anexos não misturam mais com os links para capítulos comuns,
-% resolvendo o bug #140.
-%
-% Revision 1.22  2003/05/30 10:39:19  gweber
-% Alterações introduzidas em 0.7-beta.
-%
-% Revision 1.21.2.1  2003/05/30 10:16:07  gweber
-% Correction of bug 137 which causes the class to fail when loading
-% the package hyperref and using \tableofcontents.
-% This also resolves partially bugs 82 and 51.
-%
 %
 % Added in version 1.1 patch 1
 %
@@ -229,7 +198,7 @@
 %
 % Added in version 0.4.3
 %
-% - Stupid but severe bug on \listoffigures and \listoftables
+% - Stupid but severe bug on \listoffigures and \listoftables 
 %     left from previous version finally removed
 % - Bug fixes in theindex and thebibliography
 % - Redefinition of \cleardoublepage (empty page => page style empty)
@@ -264,10 +233,12 @@
 
 %%%%%%%%%%%%        IDENTIFICATION        %%%%%%%%%%%%
 
+\def\ABNTdata{2002/11/27}
+\def\ABNTversion{1.1 patch 1}
+
 \NeedsTeXFormat{LaTeX2e}%
-\input{cvs-id.def}
-\CVSExtract$Id: abnt.cls,v 1.27.2.1 2004/11/02 15:04:29 gweber Exp $
-\CVSClass{abnt}{\space Classe abnt (NBR6024, NBR6027, NBR6028, NBR14724)} %substitui \ProvidesPackage (replaces \ProvidesPackage)
+\ProvidesClass{abnt}%
+ [\ABNTdata\space versao \ABNTversion\space da Classe LaTeX2e ABNT]
 
 % \NeedsTeXFormat{LaTeX2e}%
 % \ProvidesClass{abnt}%
@@ -512,7 +483,7 @@
 \ifthenelse{\boolean{ABNTcommonpack}}%
  {%
    \typeout{ABNT: Opcao 'pacotescomuns' ativa!}
-   % fontenc[T1] --> removed for possible pdf compatibility
+   % fontenc[T1] --> removed for possible pdf compatibility 
    % inputenc[latin1]: more common input encoding
    \typeout{ABNT -> incluindo inputenc[latin1]}%
    \RequirePackage[latin1]{inputenc}%
@@ -871,12 +842,8 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
 \newenvironment{espacoduplo}%
   {\begin{spacing}{\taxaespacoduplo}}{\end{spacing}}
 
-\newboolean{ABNThypertoc}
-\AtBeginDocument{%
 % default spacing (set by class options)
-\espaco{\ABNTespacodefault}%
-\@ifpackageloaded{hyperref}{\setboolean{ABNThypertoc}{true}}{\setboolean{ABNThypertoc}{false}}%
-}
+\AtBeginDocument{\espaco{\ABNTespacodefault}}
 
 
 % Font track mechanism (like in utthesis.cls)
@@ -892,7 +859,7 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
 % Redefining \chapter and \part. The changes are
 %  - \chapteritlepagestyle instead of explict plain page style
 %  - \ABNTchaptermark instead of \chaptermark (must be before
-%       \addcontentsline !!!)
+%       \addcontentsline !!!) 
 % - several commands were replaced by abntversions due to nuances of the
 %   norms :-( it can create several uncompatibilities with packages that
 %   change explictily these important commands, although I have tried very
@@ -928,8 +895,6 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
 \def\ABNTsecdef#1#2{\@ifstar{\@dblarg{#2}}{\@dblarg{#1}}}
 
 % Changed explicit \thispagestyle{empty}
-
-\newcommand{\chaptertype}{}%
 \renewcommand\chapter%
     {%
      \if@openright\cleardoublepage\else\clearpage\fi%
@@ -947,10 +912,10 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
      \global\@topnum\z@%
      \@afterindentfalse%
 %     \ABNTsecdef\@chapter\@schapter%
-    \secdef\@chapter\@schapter%
+     \secdef\@chapter\@schapter%
     }%
 
-% To make pre-textual chapters (that fits page numbering squeme...)
+% To make tre-textual chapters (that fits page numbering squeme...)
 % this is equal to \chapter*{}, but ignores in witch part is it. It does
 % not change any tags.
 \newcommand\pretextualchapter%
@@ -986,11 +951,11 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
   }
 
 
+\let\ABNToldaddcontentsline\addcontentsline\relax
 \newcommand{\ABNTaddcontentsline}[3]%
   {\ifthenelse{\boolean{ABNTNextOutOfTOC}}
      {\setboolean{ABNTNextOutOfTOC}{false}}
-     {\addcontentsline{#1}{#2}{#3}}%
-     }
+     {\ABNToldaddcontentsline{#1}{#2}{#3}}}
 
 \newcommand{\ABNTchaptermark}[1]
   {%
@@ -1008,19 +973,18 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
 
 
 
+
 % \@chapter : 
 \def\@chapter[#1]#2%
-      {\ifthenelse{\boolean{ABNThypertoc}}{\renewcommand{\theHchapter}{\chaptertype\thechapter}}{}
+      {\ABNTchaptermark{#1}% This command MUST came before addcontentsline
        \ifnum \c@secnumdepth >\m@ne
          \refstepcounter{chapter}%
-         \ABNTchaptermark{#1}% This command MUST came before addcontentsline
          \typeout{\@chapapp\space\thechapter.}%
          \ifthenelse{\boolean{ABNTaftertoc}}
            {\ABNTaddcontentsline{toc}{chapter}%
                    {\protect\numberline{\thechapter}#1}}
            {}
        \else
-         \ABNTchaptermark{#1}% This command MUST came before addcontentsline
          \ifthenelse{\boolean{ABNTaftertoc}}%
            {\ABNTaddcontentsline{toc}{chapter}{#1}}%
            {}%
@@ -1035,7 +999,6 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
 %% From the \@chapter code. Now \@schapter does almost the same as
 %% \@chapter. Added \resetsubcounters.
 \def\@schapter#1{%
-      \ifthenelse{\boolean{ABNThypertoc}}{\renewcommand{\theHchapter}{\chaptertype\thechapter}}{}
       \if@twocolumn
         \@topnewpage[\@makeschapterhead{#1}]
       \else
@@ -1069,7 +1032,7 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
      \ifnum \c@secnumdepth >-2\relax
        \ABNTchapterfont\huge\ifthenelse{\boolean{ABNTcapchap}}%
           {\MakeUppercase{\partname~\thepart}}%
-          {\partname~\thepart}
+          {\partname~\thepart} \partname~\thepart
        \par
        \vskip 20\p@
      \fi
@@ -1079,7 +1042,7 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
     \@endpart}
 
 \def\@spart#1{%
-    \ABNTaddcontentsline{toc}{part}{#1}%
+    \ABNTaddcontentsline{toc}{part}{#1}%    
     \markboth{}{}%
     {\centering
      \interlinepenalty \@M
@@ -1427,7 +1390,7 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
          {\ifthenelse{\boolean{ABNTCapAnnexAppendix}}
             {\MakeUppercase{\anapchaptername}}
             {\anapchaptername}
-          \thechapter{} \ABNTtravessao{} \ABNTaposindicativoanap
+          \thechapter{} \ABNTtravessao{} \ABNTaposindicativoanap 
             \ifthenelse{\boolean{ABNTcapchap}}%
               {\MakeUppercase{#1}}%
               {#1}}
@@ -1440,7 +1403,6 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
   \setcounter{chapter}{0}
   \resetsubcounters{chapter}
   \gdef\thechapter{\Alph{chapter}}
-  \ifthenelse{\boolean{ABNThypertoc}}{\renewcommand{\chaptertype}{appen.}}{}
   \gdef\@chapapp{Apendice}
   \renewcommand{\anapchaptername}{\appendixname}
   \global\let\@chapter\@anapchapter}
@@ -1451,7 +1413,6 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
   \setcounter{chapter}{0}
   \resetsubcounters{chapter}
   \gdef\thechapter{\Alph{chapter}}
-  \ifthenelse{\boolean{ABNThypertoc}}{\renewcommand{\chaptertype}{annex.}}{}
   \gdef\@chapapp{Anexo}
   \renewcommand{\anapchaptername}{\annexname}
   \global\let\@chapter\@anapchapter}
@@ -1464,7 +1425,7 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
 %  Redefing important commands (those that set marks)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Redefining \tableofcontents, \listoffigures, \listoftables,
+% Redefining \tableofcontents, \listoffigures, \listoftables, 
 % thebibliography, theindex extracing explicit \MakeUpercase in page marks
 
 \newboolean{ABNTrestorecol} % new boolean to avoid conflicts
@@ -1499,9 +1460,7 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
   \ifthenelse{\boolean{@twocolumn}}%
     {\setboolean{ABNTrestorecol}{true}\onecolumn}%
     {\setboolean{ABNTrestorecol}{false}}%
-  \ifthenelse{\boolean{ABNThypertoc}}{\renewcommand{\chaptertype}{listoffigures.}}{}
   \pretextualchapter{\listfigurename}
-  \ifthenelse{\boolean{ABNThypertoc}}{\renewcommand{\chaptertype}{}}{}
   \@starttoc{lof}%
   \ifthenelse{\boolean{ABNTrestorecol}}{\twocolumn}{}%
 }%
@@ -1514,9 +1473,7 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
   \ifthenelse{\boolean{@twocolumn}}%
     {\setboolean{ABNTrestorecol}{true}\onecolumn}%
     {\setboolean{ABNTrestorecol}{false}}%
-  \ifthenelse{\boolean{ABNThypertoc}}{\renewcommand{\chaptertype}{listoftables.}}{}
   \pretextualchapter{\listtablename}
-  \ifthenelse{\boolean{ABNThypertoc}}{\renewcommand{\chaptertype}{}}{}
   \@starttoc{lot}%
   \ifthenelse{\boolean{ABNTrestorecol}}{\twocolumn}{}%
 }%
@@ -1527,19 +1484,19 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
 % Almost equal to old thebibliography, but without capital page marks
 % and automatically in toc if active ``sumario completo''
 \renewenvironment{thebibliography}[1]%
-  {% replacing \chapter*{\refname\@mkboth...}
+  {% replacing \chapter*{\bibname\@mkboth...}
    \if@openright\cleardoublepage\else\clearpage\fi%
    \thispagestyle{\chaptertitlepagestyle}%
    \global\@topnum\z@%
    \@afterindentfalse%
-   \@mkboth{\refname}{\refname}% end \chapter*{\refname...}
+   \@mkboth{\bibname}{\bibname}% end \chapter*{\bibname...}
    \ifthenelse{\boolean{ABNTincludeintoc}}%
-      {\ABNTaddcontentsline{toc}{chapter}{\refname}}%
+      {\ABNTaddcontentsline{toc}{chapter}{\bibname}}%
       {}%
     \if@twocolumn%
-      \@topnewpage[\@makeschapterhead{\refname}]%
+      \@topnewpage[\@makeschapterhead{\bibname}]%
     \else%
-      \@makeschapterhead{\refname}%
+      \@makeschapterhead{\bibname}%
       \@afterheading%
     \fi%
    \list{\@biblabel{\@arabic\c@enumiv}}%
@@ -1743,7 +1700,6 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
 \vspace*{1cm}
 % replacing \end{titlepage} by its meaning
 \if@restonecol\twocolumn \else \newpage \fi
-\espaco{\ABNTespacodefault}%Corrige bug 114
 }% end of \capa
 
 \newcommand{\folhaderosto}%
@@ -1823,9 +1779,7 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
 \renewenvironment{abstract}%
   {%
    \if@openright\cleardoublepage\else\clearpage\fi%
-   \ifthenelse{\boolean{ABNThypertoc}}{\renewcommand{\chaptertype}{abstract.}}{}
    \pretextualchapter{\ABNTabstractname}%
-   \ifthenelse{\boolean{ABNThypertoc}}{\renewcommand{\chaptertype}{}}{}
    \begin{espacosimples}%
   }%
   {\end{espacosimples}\newpage}%abstract
@@ -1837,9 +1791,7 @@ Para mais informacoes, leia o manual da classe.\MessageBreak%
 \newenvironment{resumo}%
   {%
    \if@openright\cleardoublepage\else\clearpage\fi%
-   \ifthenelse{\boolean{ABNThypertoc}}{\renewcommand{\chaptertype}{resumo.}}{}
    \pretextualchapter{\resumoname}%
-   \ifthenelse{\boolean{ABNThypertoc}}{\renewcommand{\chaptertype}{}}{}
    \begin{espacosimples}%
   }%
   {\end{espacosimples}\newpage}%abstract

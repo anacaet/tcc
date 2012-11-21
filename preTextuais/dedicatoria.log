@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.3.20)  19 NOV 2012 01:20
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.3.20)  21 NOV 2012 00:11
 entering extended mode
  %&-line parsing enabled.
 **dedicatoria.tex
@@ -30,24 +30,87 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \begin{flushright}
+l.4 \begin{flushright}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 5--5
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--4
 [] 
  []
 
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no £ in font cmti10!
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no § in font cmti10!
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no £ in font cmti10!
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no ¡ in font cmti10!
 
-Overfull \hbox (19.9332pt too wide) in paragraph at lines 6--7
- \OT1/cmr/m/it/10 blas-
+Overfull \hbox (7.43329pt too wide) in paragraph at lines 5--6
+ \OT1/cmr/m/it/10 A
  []
 
 
-Overfull \hbox (23.2554pt too wide) in paragraph at lines 6--7
- \OT1/cmr/m/it/10 toise.
+Overfull \hbox (27.08875pt too wide) in paragraph at lines 5--6
+ \OT1/cmr/m/it/10 minha
+ []
+
+
+Overfull \hbox (15.84435pt too wide) in paragraph at lines 5--6
+ \OT1/cmr/m/it/10 me,
+ []
+
+
+Overfull \hbox (16.86655pt too wide) in paragraph at lines 5--6
+ \OT1/cmr/m/it/10 pelo
+ []
+
+
+Overfull \hbox (22.61653pt too wide) in paragraph at lines 5--6
+ \OT1/cmr/m/it/10 amor
+ []
+
+
+Overfull \hbox (12.26659pt too wide) in paragraph at lines 5--6
+ \OT1/cmr/m/it/10 in-
+ []
+
+
+Overfull \hbox (26.57759pt too wide) in paragraph at lines 5--6
+ \OT1/cmr/m/it/10 condi-
+ []
+
+
+Overfull \hbox (26.06651pt too wide) in paragraph at lines 5--6
+ \OT1/cmr/m/it/10 cional
+ []
+
+
+Overfull \hbox (4.59996pt too wide) in paragraph at lines 5--6
+ \OT1/cmr/m/it/10 e
+ []
+
+
+Overfull \hbox (16.86656pt too wide) in paragraph at lines 5--6
+ \OT1/cmr/m/it/10 mo-
+ []
+
+
+Overfull \hbox (9.96658pt too wide) in paragraph at lines 5--6
+ \OT1/cmr/m/it/10 ti-
+ []
+
+
+Overfull \hbox (14.82213pt too wide) in paragraph at lines 5--6
+ \OT1/cmr/m/it/10 vao
+ []
+
+
+Overfull \hbox (23.63875pt too wide) in paragraph at lines 5--6
+ \OT1/cmr/m/it/10 diria.
  []
 
 
@@ -58,7 +121,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 \clearpage
+l.10 \clearpage
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -78,5 +141,5 @@ Here is how much of TeX's memory you used:
  3290 multiletter control sequences out of 15000+50000
  3986 words of font info for 15 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 20i,4n,14p,61b,111s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 20i,4n,14p,110b,111s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

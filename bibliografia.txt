@@ -1,0 +1,31 @@
+
+\begin{thebibliography}{99}
+  \bibitem{archer}{ARCHER, N.P.; GHASEMZADEH, F. An integrated framework for project portfolio selection. International Journal of Project Management. v.17, n.4, p.207-216, 1999.}
+  \bibitem{rodolfo}{BARROS, Rodolfo Miranda de}
+  \bibitem{atila}{BELLOQUIM, Atila, Arquitetura Corporativa e Gestão de Portfolio de Projetos, Acessado via: http://www.gnosisbr.com.br/arquitetura-corporativa-e-gestao-de-portfolio-de-projetos.html, último acesso Março 2011}
+  \bibitem{catelli}{CATELLI, Armando. Controladoria - Uma abordagem da Gestão Econômica - GECON. São Paulo: Atlas, 1999.}
+  \bibitem{cooper}{COOPER, R. G., EDGETT, S. J. and KLEINSCHMIDT, E. J., Portfolio Management for New Products, 2dn edn,Perseus Publishing, NY, 2001}
+  \bibitem{cooper2}{COOPER, R. G., Edgett, S. J. and Kleinschmidt, E. J., Project Portfolio Management in New Product Development: Results of a Industry Practices Study, Product Development Institute, ON, Canadá, 2001.}
+  \bibitem{crawford}{CRAWFORD, J. K. The Strategic Project Office: a guide to improving organizational performance. New York: Marcel Dekker, 2002.}
+  \bibitem{dinsmore}{DINSMORE, Paul Campbell. Transformando Estratégias Empresariais em Resultados Através da Gerência por Projeto. Rio de Janeiro: Qualitymark Ed.,1999. 284p.}
+  \bibitem{artigo}{Gestão de Portfolio: o desafio do alinhamento estratégico}
+  \bibitem{johnson}{JOHNSON, G., Scholes, K., Exploring Corporate Strategy: Text and Cases, Prentice Hall, Hertfordshire, UK.}
+  \bibitem{kaplan}{KAPLAN, Robert S., NORTON, David P., Organização Orientada para Estratégia: Como as Empresas que Adotaram o Balanced Scorecard Prosperam no Novo Ambiente de Negócios. Rio de Janeiro, Campos, 2000.}
+  \bibitem{levine}{LEVINE, H.A. Project Portfolio Management: A practical guide to selecting projects, managing portfolios, and maximizing benefits. 1. ed. New york: John Wiley \& Sons, 2005. 560p}
+  \bibitem{martino1}{MARTINO, J. Apostila do curso ministrado no IPT – Instituto de Pesquisas Tecnológicas do Estado de São Paulo, 1993a.}
+  \bibitem{martino2}{MARTINO, J. Tecnological forescasting for decision making. 3 ed. New York, Mc Graw-Hill, 1993b.}
+  \bibitem{mcfarlan}{McFARLAN, W. E. Portfolio approach to information systems. Harvard Business Review, v. 59, n. 5, p. 142-150, Sep./Oct. 1981.}
+  \bibitem{ricardo}{MOREIRA, Ricardo, Governança de TI: Um comparativo entre Cobit e ITIL}
+  \bibitem{mps}{MPS.BR: Melhoria do Processo de Software Brasileiro – Guia de Implementação – Parte 2: Fundamentação para Implementação do Nível F do MR-MPS }
+  \bibitem{sppm} {Standard of Portfolio Management}
+  \bibitem{pmbok}{PMBOK - PMI (Project Management Institute), "Project Management Body of Knowledge", PMI, 2000 / 2008.}
+  \bibitem{porter1}{PORTER, M. E. How Competitive forces shape strategy. Harvard Business Review, p. 137-145, Nov./Dec., 1979.}
+  \bibitem{porter2}{PORTER, M. E. What is strategy? Harvard Business Review, p. 61-78, Nov./Dec. 1996.}
+  \bibitem{prahalad}{PRAHALAD, C.K. A Competência Essencial. HSM Management, p.6-11, Mar-Abr 1997.}
+  \bibitem{prahalad2}{PRAHALAD, C.K. Em Busca do Novo. HSM Management, p.6-12,Mar-Abr 1998.}
+  \bibitem{rabechini}{RABECHINI JR, Roque; MAXIMIANO, Antonio C.A.;; Martins, Vergilio A.. A adoção de gerenciamento de portfolio como uma alternativa gerencial: o caso de uma empresa prestadora de serviço de interconexão eletrônica. Revista Produção, v. 15, n. 3, p. 416-433, 2005.}
+  \bibitem{rockart}{ROCKART, J. F. Chief Executives define their own data needs. Harvard Business Review, v. 57, n. 2, p. 81-92, Mar./Apr. 1979.}
+  \bibitem{sandra}{SANTOS, Sandra Sergi, Gestão de TI através de Portfolios}
+  \bibitem{sanvicente}{SANVICENTE, Antonio Z., SANTOS, Celso da Costa.. Orçamento na Administração de Empresas: planejamento e controle. São Paulo: Atlas, 2000.}
+  \bibitem{clark}{WHEELWRIGHT, S. C.; CLARK, K. B. Managing new product and process development. New York: Free Press, 1993.}
+\end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.3.20)  20 NOV 2012 22:06
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.3.20)  21 NOV 2012 06:06
 entering extended mode
  %&-line parsing enabled.
 **tcc_preview.tex
@@ -6,9 +6,8 @@ entering extended mode
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, portuguese, loaded.
-(./abnt.cls (/usr/share/texmf/tex/latex/abntex/cvs-id.def)
-Document Class: abnt 2004/11/02 v1.27.2.1 Classe abnt (NBR6024, NBR6027, NBR602
-8, NBR14724)
+(./abnt.cls
+Document Class: abnt 2002/11/27 versao 1.1 patch 1 da Classe LaTeX2e ABNT
 (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
@@ -125,11 +124,24 @@ Package ifvtex Info: VTeX not detected.
 \Gm@odd@mp=\dimen115
 \Gm@even@mp=\dimen116
 \Gm@dimlist=\toks15
+) (./abntcite.sty
+Package: abntcite 2002/11/20
+\minimumbiblabelwidth=\skip52
+\ABCIauxlen=\skip53
+\c@ABCIaux=\count102
+\c@ABCImax=\count103
+
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/relsize.sty
+Package: relsize 2003/07/04 ver 3.1
+)
+\biblabelsep=\skip54
+LaTeX Info: Redefining \cite on input line 429.
+\ABCItoken=\toks16
 )
 (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 
 (/usr/share/texmf-texlive/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -344,27 +356,27 @@ Now handling font encoding U ...
    defining Unicode char U+2423 (decimal 9251)
 ))
 (/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip52
-\f@ncyO@elh=\skip53
-\f@ncyO@erh=\skip54
-\f@ncyO@olh=\skip55
-\f@ncyO@orh=\skip56
-\f@ncyO@elf=\skip57
-\f@ncyO@erf=\skip58
-\f@ncyO@olf=\skip59
-\f@ncyO@orf=\skip60
+\fancy@headwidth=\skip55
+\f@ncyO@elh=\skip56
+\f@ncyO@erh=\skip57
+\f@ncyO@olh=\skip58
+\f@ncyO@orh=\skip59
+\f@ncyO@elf=\skip60
+\f@ncyO@erf=\skip61
+\f@ncyO@olf=\skip62
+\f@ncyO@orf=\skip63
 )
 (/usr/share/texmf-texlive/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks18
+\@enLab=\toks19
 )
 (/usr/share/texmf-texlive/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen117
 \extrarowheight=\dimen118
-\NC@list=\toks19
-\extratabsurround=\skip61
-\backup@length=\skip62
+\NC@list=\toks20
+\extratabsurround=\skip64
+\backup@length=\skip65
 )
 (/usr/share/texmf/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -376,14 +388,14 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-\Gread@gobject=\count102
+\Gread@gobject=\count104
 )
 (/usr/share/texmf-texlive/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
-\everycr=\toks20
-\minrowclearance=\skip63
+\everycr=\toks21
+\minrowclearance=\skip66
 )
-\rownum=\count103
+\rownum=\count105
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -395,23 +407,23 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 (/usr/share/texmf-texlive/tex/latex/listings/listings.sty
-\lst@mode=\count104
+\lst@mode=\count106
 \lst@gtempboxa=\box52
-\lst@token=\toks21
-\lst@length=\count105
+\lst@token=\toks22
+\lst@length=\count107
 \lst@currlwidth=\dimen119
-\lst@column=\count106
-\lst@pos=\count107
+\lst@column=\count108
+\lst@pos=\count109
 \lst@lostspace=\dimen120
 \lst@width=\dimen121
-\lst@newlines=\count108
-\lst@lineno=\count109
+\lst@newlines=\count110
+\lst@lineno=\count111
 \lst@maxwidth=\dimen122
 
 (/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count110
-\lst@skipnumbers=\count111
+\c@lstnumber=\count112
+\lst@skipnumbers=\count113
 \lst@framebox=\box53
 )
 (/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
@@ -427,7 +439,7 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
 (/usr/share/texmf-texlive/tex/generic/babel/babel.def
 File: babel.def 2008/07/06 v3.8l Babel common definitions
-\babel@savecnt=\count112
+\babel@savecnt=\count114
 \U@D=\dimen123
 )
 \l@brazil = a dialect from \language\l@portuges 
@@ -452,10 +464,10 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 (/usr/share/texmf-texlive/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count113
-\float@exts=\toks22
+\c@float@type=\count115
+\float@exts=\toks23
 \float@box=\box54
-\@float@everytoks=\toks23
+\@float@everytoks=\toks24
 \@floatcapt=\box55
 )
 
@@ -469,18 +481,18 @@ LaTeX Warning: Unused global option(s):
 (./preTextuais/listasiglas.aux))
 \openout1 = `tcc_preview.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -525,18 +537,18 @@ driver: pdftex
 -----------------------
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count114
+\scratchcounter=\count116
 \scratchdimen=\dimen126
 \scratchbox=\box56
-\nofMPsegments=\count115
-\nofMParguments=\count116
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count117
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count119
 \MPscratchDim=\dimen127
-\MPnumerator=\count118
-\everyMPtoPDFconversion=\toks25
+\MPnumerator=\count120
+\everyMPtoPDFconversion=\toks26
 )
-\c@lstlisting=\count119
+\c@lstlisting=\count121
 \openout2 = `preTextuais/capa.aux'.
 
  (./preTextuais/capa.tex
@@ -577,25 +589,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 \openout2 = `preTextuais/folhaAprovacao.aux'.
 
- (./preTextuais/folhaAprovacao.tex
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-
- []
-
-) [3
+ (./preTextuais/folhaAprovacao.tex) [3
 
 
 ]
 \openout2 = `preTextuais/dedicatoria.aux'.
 
- (./preTextuais/dedicatoria.tex [4
+
+(./preTextuais/dedicatoria.tex [4
 
 
 ])
 \openout2 = `preTextuais/agradecimentos.aux'.
 
- (./preTextuais/agradecimentos.tex)
-[5
+ (./preTextuais/agradecimentos.tex) [5
 
 
 
@@ -603,7 +610,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--35
 ]
 \openout2 = `preTextuais/epigrafe.aux'.
 
- (./preTextuais/epigrafe.tex) [6
+
+(./preTextuais/epigrafe.tex) [6
 
 
 ]
@@ -615,7 +623,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
+Underfull \hbox (badness 10000) in paragraph at lines 6--13
 
  []
 
@@ -631,7 +639,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
 
  []
 
@@ -645,7 +653,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
  [9
 
 
-] (./tcc_preview.lot)
+] (./tcc_preview.lot
+Overfull \hbox (6.38795pt too wide) in paragraph at lines 2--2
+ [][] []\OT1/cmr/m/n/12 Processo ge-ren-cial para cria^^Xc~ao do ge-ren-ci-a-me
+nto de port-fo-lio(\OT1/cmr/m/n/10 CRAWFORD\OT1/cmr/m/n/12 , 
+ []
+
+)
 \tf@lot=\write4
 \openout4 = `tcc_preview.lot'.
 
@@ -655,13 +669,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 ]
 \openout2 = `preTextuais/listasiglas.aux'.
 
-
-(./preTextuais/listasiglas.tex
-Overfull \hbox (19.82722pt too wide) in paragraph at lines 3--9
+ (./preTextuais/listasiglas.tex)
+Overfull \hbox (23.96613pt too wide) in paragraph at lines 3--53
 [] 
  []
 
-) [11
+[11
 
 
 
@@ -677,160 +690,141 @@ Cap\'{\i }tulo 1.
 [14
 
 
-] [15]
+]
+Overfull \hbox (10.51532pt too wide) in paragraph at lines 89--91
+[]\OT1/cmr/m/n/12 Organiza^^Xc~oes bem su-ce-di-das pos-suem um m^^Setodo de ge
+-ren-ci-a-mento de port-fo-lio expl^^S^^Pcito
+ []
+
+[15] [16]
 Cap\'{\i }tulo 2.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 119.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 151.
 
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
- [16
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
+ [17
 
-] [17] [18]
+] [18] [19]
 Cap\'{\i }tulo 3.
-[19
 
-] <pmbok1.jpg, id=71, 482.55281pt x 256.70906pt>
-File: pmbok1.jpg Graphic file (type jpg)
- <use pmbok1.jpg> [20]
-[21 <./pmbok1.jpg>] <pmbok2.JPG, id=78, 649.67719pt x 335.00156pt>
-File: pmbok2.JPG Graphic file (type jpg)
+Overfull \hbox (2.28308pt too wide) in paragraph at lines 220--224
+\OT1/cmr/m/n/12 po-de-mos tor-nar o neg^^Socio mais adapt^^Savel, sens^^S^^Pvel
+ e lu-cra-tivo em um am-bi-ente de m^^Sultiplos
+ []
 
-<use pmbok2.JPG> [22 <./pmbok2.JPG>] [23]
+[20
+
+] <img/fig1.png, id=75, 588.69937pt x 377.91188pt>
+File: img/fig1.png Graphic file (type png)
+ <use img/fig1.png>
+[21] [22 <./img/fig1.png>] <img/fig2.png, id=84, 594.72188pt x 470.50781pt>
+File: img/fig2.png Graphic file (type png)
+
+<use img/fig2.png> [23 <./img/fig2.png>] [24]
 Cap\'{\i }tulo 4.
-<flow_sppm.jpg, id=85, 2088.80376pt x 1059.96pt>
-File: flow_sppm.jpg Graphic file (type jpg)
- <use flow_sppm.jpg> [24
+<img/fig3.png, id=92, 437.38406pt x 220.57407pt>
+File: img/fig3.png Graphic file (type png)
+ <use img/fig3.png> [25
 
 ]
-[25 <./flow_sppm.jpg>]
-Overfull \hbox (3.57585pt too wide) in paragraph at lines 365--398
+[26 <./img/fig3.png>]
+Overfull \hbox (3.57585pt too wide) in paragraph at lines 397--430
  [] 
  []
 
-[26] <organizacional_port.jpg, id=96, 1678.27pt x 1439.3775pt>
-File: organizacional_port.jpg Graphic file (type jpg)
+[27] <img/fig4.png, id=104, 566.86781pt x 741.52031pt>
+File: img/fig4.png Graphic file (type png)
+ <use img/fig4.png>
+[28 <./img/fig4.png>] [29] [30]
+<img/fig5.png, id=115, 498.36188pt x 299.61937pt>
+File: img/fig5.png Graphic file (type png)
+ <use img/fig5.png> [31 <./img/fig5.png>] [32] [33] <img/fig6.png, id=127, 423.
+83344pt x 207.77625pt>
+File: img/fig6.png Graphic file (type png)
 
-<use organizacional_port.jpg> [27 <./organizacional_port.jpg>] [28] [29]
-<grid_estrategico.jpg, id=106, 741.77126pt x 282.05376pt>
-File: grid_estrategico.jpg Graphic file (type jpg)
+<use img/fig6.png> <img/fig7.png, id=128, 621.07031pt x 388.45125pt>
+File: img/fig7.png Graphic file (type png)
 
-<use grid_estrategico.jpg> [30 <./grid_estrategico.jpg>] [31]
-<diagrama_bolhas.png, id=114, 689.57625pt x 452.69125pt>
-File: diagrama_bolhas.png Graphic file (type png)
-
-<use diagrama_bolhas.png> [32 <./diagrama_bolhas.png (PNG copy)>]
-<archer.jpg, id=118, 714.67pt x 449.68pt>
-File: archer.jpg Graphic file (type jpg)
- <use archer.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 630--630
-[]|\OT1/cmr/m/n/10.95 Desenvolvimento
+<use img/fig7.png> [34 <./img/fig6.png>] [35 <./img/fig7.png>] [36]
+Overfull \hbox (3.5265pt too wide) in paragraph at lines 713--718
+[]\OT1/cmr/m/n/12 Utiliza-se nor-mal-mente uma ma-triz ``im-pacto x pro-ba-bi-l
+i-dade'' di-vi-dida em tr^es regi~oes:
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 630--630
-[]|\OT1/cmr/m/n/10.95 Mapa es-
- []
-
-
-Underfull \hbox (badness 1325) in paragraph at lines 632--632
-[]|\OT1/cmr/m/n/10.95 Processo de sele^^Xc~ao
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 632--632
-[]|\OT1/cmr/m/n/10.95 Rejei^^Xc~ao de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 632--632
-\OT1/cmr/m/n/10.95 aten-dam aos
- []
-
-
-Overfull \hbox (13.92206pt too wide) in paragraph at lines 626--637
- [] 
- []
-
-<tabela_archer.jpg, id=119, 921.4425pt x 445.665pt>
-File: tabela_archer.jpg Graphic file (type jpg)
- <use tabela_archer.jpg>
-[33 <./archer.jpg>] [34 <./tabela_archer.jpg>] [35] [36]
+[37] [38] [39]
 Cap\'{\i }tulo 5.
-[37
+[40
 
-] <stage_and_gate.png, id=136, 828.09375pt x 388.45125pt>
-File: stage_and_gate.png Graphic file (type png)
+] <img/fig8.png, id=153, 604.50844pt x 307.1475pt>
+File: img/fig8.png Graphic file (type png)
+ <use img/fig8.png>
+[41] [42 <./img/fig8.png>] <img/fig9.png, id=161, 619.56468pt x 538.26094pt>
+File: img/fig9.png Graphic file (type png)
 
-<use stage_and_gate.png> [38] [39 <./stage_and_gate.png (PNG copy)>]
-<gpp_total_cooper.png, id=143, 783.92876pt x 584.1825pt>
-File: gpp_total_cooper.png Graphic file (type png)
-
-<use gpp_total_cooper.png> [40 <./gpp_total_cooper.png (PNG copy)>] [41]
-Overfull \hbox (6.07231pt too wide) in paragraph at lines 875--878
+<use img/fig9.png> [43 <./img/fig9.png>] [44]
+Overfull \hbox (6.07231pt too wide) in paragraph at lines 947--950
 []\OT1/cmr/m/n/12 Ainda nesta di-mens~ao, al^^Sem da ne-ces-si-dade de en-ten-d
 i-mento dos ele-men-tos es-trat^^Segicos,
  []
 
-[42] <rabechini.jpg, id=153, 624.3325pt x 312.16624pt>
-File: rabechini.jpg Graphic file (type jpg)
- <use rabechini.jpg>
-[43] [44 <./rabechini.jpg>]
-<modelo_pmi.jpg, id=161, 1962.33125pt x 1344.02126pt>
-File: modelo_pmi.jpg Graphic file (type jpg)
- <use modelo_pmi.jpg>
-[45 <./modelo_pmi.jpg>]
-<areas_conhecimento_pmi.png, id=165, 1341.01pt x 981.6675pt>
-File: areas_conhecimento_pmi.png Graphic file (type png)
+[45] <img/fig10.png, id=173, 572.89032pt x 368.1253pt>
+File: img/fig10.png Graphic file (type png)
+ <use img/fig10.png>
+[46] [47 <./img/fig10.png>] <img/fig11.png, id=181, 587.19376pt x 390.70969pt>
+File: img/fig11.png Graphic file (type png)
 
-<use areas_conhecimento_pmi.png> [46 <./areas_conhecimento_pmi.png>]
-<DirecaoExecutiva.png, id=171, 1093.08376pt x 392.46625pt>
+<use img/fig11.png> [48] <img/fig12.png, id=185, 502.12593pt x 347.04657pt>
+File: img/fig12.png Graphic file (type png)
+
+<use img/fig12.png> [49 <./img/fig11.png>]
+<DirecaoExecutiva.png, id=191, 1093.08376pt x 392.46625pt>
 File: DirecaoExecutiva.png Graphic file (type png)
 
-<use DirecaoExecutiva.png> <Projetos.png, id=172, 984.67876pt x 362.35374pt>
+<use DirecaoExecutiva.png> [50 <./img/fig12.png>]
+<Projetos.png, id=196, 984.67876pt x 362.35374pt>
 File: Projetos.png Graphic file (type png)
-
-<use Projetos.png> [47 <./DirecaoExecutiva.png>]
-<GerenciaPortfolio.png, id=177, 1131.22626pt x 377.41pt>
+ <use Projetos.png> [51 <./DirecaoExecutiva.png> <./Projetos.png>]
+<GerenciaPortfolio.png, id=202, 1131.22626pt x 377.41pt>
 File: GerenciaPortfolio.png Graphic file (type png)
 
-<use GerenciaPortfolio.png> [48 <./Projetos.png> <./GerenciaPortfolio.png>]
-[49]
+<use GerenciaPortfolio.png> [52 <./GerenciaPortfolio.png>]
 Cap\'{\i }tulo 6.
-[50
+(./tcc_preview.bbl [53
 
-] [51
+] [54
 
-]
+])
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[52] (./tcc_preview.aux (./preTextuais/capa.aux) (./preTextuais/folhaRosto.aux)
+[55] (./tcc_preview.aux (./preTextuais/capa.aux) (./preTextuais/folhaRosto.aux)
 (./preTextuais/folhaAprovacao.aux) (./preTextuais/dedicatoria.aux)
 (./preTextuais/agradecimentos.aux) (./preTextuais/epigrafe.aux)
 (./preTextuais/resumo.aux) (./preTextuais/abstract.aux)
 (./preTextuais/listasiglas.aux)) ) 
 Here is how much of TeX's memory you used:
- 4684 strings out of 495041
- 62352 string characters out of 1181897
- 139981 words of memory out of 3000000
- 7723 multiletter control sequences out of 15000+50000
- 11441 words of font info for 39 fonts, out of 3000000 for 9000
+ 4891 strings out of 495041
+ 65384 string characters out of 1181897
+ 143660 words of memory out of 3000000
+ 7926 multiletter control sequences out of 15000+50000
+ 11787 words of font info for 40 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 41i,13n,43p,333b,314s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,13n,43p,333b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
 /cmbxti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pf
 b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmti12.pfb>
-Output written on tcc_preview.pdf (52 pages, 1298125 bytes).
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmti12.pfb>
+Output written on tcc_preview.pdf (55 pages, 970262 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
+ 245 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

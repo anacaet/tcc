@@ -14,8 +14,8 @@
 \vspace{1.3in}
 \begin{flushright}
 \parbox{3.0in}{
-Trabalho de Conclusao de Curso apresentado ao Curso de Graduacao em Ciencia da Computacao
-da Universidade Estadual de Londrina, como requisito parcial a obtencao do grau de Bacharel.}
+Trabalho de Conclus\~{a}o de Curso apresentado ao Curso de Gradua\c{c}\~{a}o em Ci\^{e}ncia da Computa\c{c}~{a}o
+da Universidade Estadual de Londrina, como requisito parcial a obten\c{c}\~ao do grau de Bacharel.}
 \end{flushright}
 
 %\vspace{0.5in}
@@ -26,18 +26,29 @@ da Universidade Estadual de Londrina, como requisito parcial a obtencao do grau 
 
 \vspace{0.5in}
 \begin{flushright}
-\parbox{3.0in}{
-\textbf{COMISSAO EXAMINADORA} \\
- %nome - institituicao (ordem alfabetica com orientador incluso)
-
-\flushright{ \rule{150pt}{1pt} \\
- Prof. Dr. Rodolfo Miranda de Barros \\ Universidade Estadual de Londrina} \\
-}
-
-\vspace{0.5in}
-%\flushright{Londrina, 28\rule{20pt}{1pt} de \rule{80pt}{1pt} de 2009}
-\flushright{Londrina, \rule{20pt}{1pt} de \rule{80pt}{1pt} de 2009}
-
+	\begin{tabular}{c}
+		\hline
+		Prof. Dr. Rodolfo Miranda de Barros \\
+		Universidade Estadual de Londrina - UEL
+		\\
+		\\
+		\\
+		\hline
+		Prof\textordfeminine. Dr\textordfeminine. Jandira Guenka Palma \\
+		Universidade Estadual de Londrina - UEL
+		\\
+		\\
+		\\
+		\hline
+		Prof. Msc. Rafael Robson Negr\~{a}o \\
+		Universidade Estadual de Londrina - UEL
+		\\
+		\\
+		\\
+		
+		Londrina, \rule{20pt}{1pt} de Novembro de 2012
+		
+	\end{tabular}
 \end{flushright}
 \end{center}
 

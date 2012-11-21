@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: tcc_preview.aux
+A level-1 auxiliary file: preTextuais/capa.aux
+A level-1 auxiliary file: preTextuais/folhaRosto.aux
+A level-1 auxiliary file: preTextuais/folhaAprovacao.aux
+A level-1 auxiliary file: preTextuais/dedicatoria.aux
+A level-1 auxiliary file: preTextuais/agradecimentos.aux
+A level-1 auxiliary file: preTextuais/epigrafe.aux
+A level-1 auxiliary file: preTextuais/resumo.aux
+A level-1 auxiliary file: preTextuais/abstract.aux
+A level-1 auxiliary file: preTextuais/listasiglas.aux
+The style file: abnt-alf.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: bibliografia/refbi.bib
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
++---------------------------------------------------------+
+| Estilo bibliografico abnt-alf.bst versao 1.53           |
+| Implementa a NBR6023, NBR10520 e NBR10523               |
+| Em caso de duvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+You've used 23 entries,
+            6522 wiz_defined-function locations,
+            1311 strings with 12330 characters,
+and the built_in function-call counts, 18373 in all, are:
+= -- 1530
+> -- 571
+< -- 26
++ -- 249
+- -- 175
+* -- 1204
+:= -- 2495
+add.period$ -- 98
+call.type$ -- 23
+change.case$ -- 206
+chr.to.int$ -- 63
+cite$ -- 23
+duplicate$ -- 922
+empty$ -- 1546
+format.name$ -- 813
+if$ -- 4490
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 427
+newline$ -- 100
+num.names$ -- 115
+pop$ -- 567
+preamble$ -- 1
+purify$ -- 81
+quote$ -- 0
+skip$ -- 1011
+stack$ -- 1
+substring$ -- 661
+swap$ -- 432
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 9
+warning$ -- 0
+while$ -- 158
+width$ -- 0
+write$ -- 362

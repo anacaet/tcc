@@ -1,17 +1,13 @@
-\begin{resumo}
-As aplicações \textit{WEB} são os principais mecanismos  para realizar transferências de dados
-eletrônicos.  Criptografia e protocolos de segurança são os componentes essenciais para estabelecer
-um comércio eletrônico.  Atualmente, com o crescimento do número de transações de dados sendo feitas
-por meio da Internet, a garantia da segurança das transferências de informações é importante. 
-Grandes quantidades de dados sigilosos estão sendo transferidos por intermédio da Internet, através
-de aplicações \textit{e-commerce}, bancos \textit{on-line} e  até \textit{sites} governamentais.
-Entretanto, várias aplicações \textit{WEB} são  desenvolvidas rapidamente,  e com isso, não são
-feitos testes apropriados de segurança, dessa forma o \textit{software}  torna-se  vulnerável. Sendo
-assim, este trabalho apresenta as técnicas e tecnologias sobre a segurança na \textit{WEB},  para 
-que as aplicações  estabeleçam  uma comunicação segura,  confiável e  sem  vulnerabilidade.          
-\vspace{1.5ex}
+\singlespacing
+\noindent ALVES RODRIGUES,  Ana Carolina  {\bf Gest\~ao de Porftolio de Projetos}. 2012. 85 f. TCC - Universidade Estadual de Londrina, Londrina. 2012. \\
+\begin{center}
+{\bf {\Large RESUMO}}
+\end{center}
+Texto do resumo 
+\newline
 
-\textbf{Palavras-Chaves:} Aplicação, Criptografia, Protocolos, Segurança,
-Vulnerabilidade
-
-\end{resumo}
+\noindent{\bf Palavras-Chave:}  palavra-chave1, palavra-chave2...palavra-chaven.
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% fim de arquivo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

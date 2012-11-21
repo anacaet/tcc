@@ -1,0 +1,27 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   Contracapa
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% nÃ£o numerar a pÃ¡gina
+\thispagestyle{empty}
+
+\begin{center}
+
+	{\large ANA CAROLINA ALVES RODRIGUES \\}
+	\vspace{0.8in}
+	{\large \textbf{GESTÃO DE PORTFOLIO DE PROJETOS}} \\
+	 \vspace{2ex}
+		
+	\vspace{0.5in}
+	\begin{flushright}
+	\parbox{3.4in}{{\singlespacing Trabalho de Conclusão de curso  apresentado à Universidade Estadual de Londrina como parte dos 
+requisitos para obtenção do tí­tulo de bacharel em Ciência da Computação.}
+	{\singlespacing Orientador: Prof.  Dr. Rodolfo Miranda de Barros.}
+	} 
+	\end{flushright}
+\vfill
+\vfill
+
+{\tamanhonormal Londrina \\ 2012}
+ 
+\end{center}
