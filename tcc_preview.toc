@@ -24,6 +24,6 @@
 \contentsline {section}{\numberline {5.1}Cooper, Edgett e Kleinschmidt}{40}
 \contentsline {section}{\numberline {5.2}Rabechini, Maximiano e Martins}{45}
 \contentsline {section}{\numberline {5.3}O padr\IeC {\~a}o apresentado pelo PMI}{48}
-\contentsline {section}{\numberline {5.4}Proposto}{50}
+\contentsline {section}{\numberline {5.4}Modelo Proposto}{50}
 \contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{53}
 \contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{54}
